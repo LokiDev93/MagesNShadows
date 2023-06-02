@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 78069fd2d6f71a543b4429ed5e5f6bd3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _addedNetworkObject: {instanceID: 0}
+  - _networkObjectCache: {instanceID: 0}
+  - nm: {instanceID: 0}
+  - tmpItem: {fileID: 11400000, guid: ee255e6cf48582c4eb83b86fd709326b, type: 2}
+  - inventoryPlaceholder: {fileID: 11400000, guid: c8ba4a93bd3136b4a8c2d7007d3b961e, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,4 @@
+This scene requires version 2.0 of the Buoyancy Toolkit. Make sure you have this version or later imported into your project before opening the BTIntegration package.
+
+Best regards,
+Gustav
