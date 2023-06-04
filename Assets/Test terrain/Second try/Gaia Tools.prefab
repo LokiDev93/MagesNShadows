@@ -1,0 +1,6114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3543086181193848577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3543086181193848578}
+  m_Layer: 0
+  m_Name: Gaia Tools
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3543086181193848578
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181193848577}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3543086181966608989}
+  - {fileID: 3543086181860722654}
+  - {fileID: 3543086182593245908}
+  - {fileID: 3543086181668790498}
+  - {fileID: 3543086181417214273}
+  - {fileID: 3543086182460442397}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3543086181239562877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3543086181239562878}
+  - component: {fileID: 3543086181239562864}
+  - component: {fileID: 3543086181239562879}
+  m_Layer: 0
+  m_Name: Synty Detail Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3543086181239562878
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181239562877}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2560, y: -6.492584, z: 2560}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3543086182593245908}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3543086181239562864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181239562877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df16ee49ef1a2246ba1007a065388a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings: {fileID: 0}
+  worldCreationSettings: {fileID: 0}
+  baseTerrainsettings: {fileID: 0}
+  m_worldMapStamperSettings: []
+  m_loadTerrainMode: 1
+  m_impostorLoadingRange: 0
+  m_connectedCTSProfileGUID: 
+  m_spawnerID: 93426988-585f-4063-ba8e-6d5a540aa21e
+  m_mode: 0
+  m_seed: 717
+  m_spawnerShape: 0
+  m_spawnRuleSelector: 2
+  m_spawnLocationAlgorithm: 0
+  m_spawnLocationCheckType: 0
+  m_locationIncrement: 1
+  m_maxJitteredLocationOffsetPct: 0.9
+  m_locationChecksPerInt: 1
+  m_maxRandomClusterSize: 50
+  m_spawnFitnessAttenuator:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_areaMaskMode: 0
+  m_enableColliderCacheAtRuntime: 0
+  m_imageMask: {fileID: 0}
+  m_imageMaskInvert: 0
+  m_imageMaskNormalise: 0
+  m_imageMaskFlip: 0
+  m_imageMaskSmoothIterations: 3
+  m_noiseMaskSeed: 0
+  m_noiseMaskOctaves: 8
+  m_noiseMaskPersistence: 0.25
+  m_noiseMaskFrequency: 1
+  m_noiseMaskLacunarity: 1.5
+  m_noiseZoom: 10
+  m_noiseInvert: 0
+  m_spawnInterval: 5
+  m_triggerTags: Player
+  m_triggerRange: 130
+  m_spawnCollisionLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  m_spawnColliderLayer: 6
+  m_showGizmos: 1
+  m_showDebug: 0
+  m_baseTerrainStamped: 0
+  m_updateTimeAllowed: 0.033333335
+  m_spawnProgress: 0
+  m_spawnComplete: 1
+  m_spawnerBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_spawnPreviewDirty: 1
+  m_lastActiveTerrainSize: 512
+  m_spawnRuleRegularToggleAllState: 0
+  m_spawnRuleBiomeMasksToggleAllState: 1
+  m_spawnRuleStampsToggleAllState: 1
+  m_drawPreview: 0
+  m_previewRuleIds: 
+  m_maxWorldHeight: 104.407845
+  m_minWorldHeight: 0
+  m_showSeaLevelinStampPreview: 1
+  m_terrainGeneratorPanelUnfolded: 1
+  m_worldDesignerPreviewSettingsUnfolded: 0
+  m_rulePanelUnfolded: 1
+  m_createBaseTerrainUnfolded: 0
+  m_sizeAndResolutionUnfolded: 1
+  m_exportTerrainUnfolded: 0
+  m_worldBiomeMasksUnfolded: 0
+  m_createdfromBiomePreset: 0
+  m_createdFromGaiaManager: 0
+  m_showSeaLevelPlane: 0
+  m_showBoundingBox: 1
+  m_seaLevel: 8
+  m_worldDesignerPreviewTileX: -99
+  m_worldDesignerPreviewTileZ: -99
+  m_worldDesignerClearStampsWarningShown: 0
+  m_maskListBeingDrawn: []
+  m_collisionMaskListBeingDrawn:
+  - m_active: 1
+    m_invert: 0
+    m_type: 2
+    m_selectedTreeSpawnRuleGUIDs: []
+    m_treeSpawnRuleGUID: 
+    m_tag: 
+    m_Radius: 0
+    m_growShrinkDistance: 0.5
+    m_layerMask:
+      serializedVersion: 2
+      m_Bits: 3584
+    m_layerMaskLayerNames:
+    - PW_Object_Small
+    - PW_Object_Medium
+    - PW_Object_Large
+  m_spawnRuleIndexBeingDrawn: 7
+  m_spawnRuleMaskIndexBeingDrawn: 0
+  m_textureResourcePrototypeBeingDrawn:
+    m_name: 
+    m_texture: {fileID: 0}
+    m_textureFileName: 
+    m_normal: {fileID: 0}
+    m_maskmap: {fileID: 0}
+    m_CTSSmoothnessMap: {fileID: 0}
+    m_CTSRoughnessMap: {fileID: 0}
+    m_CTSHeightMap: {fileID: 0}
+    m_CTSAmbientOcclusionMap: {fileID: 0}
+    m_normalFileName: 
+    m_sizeX: 8
+    m_sizeY: 8
+    m_offsetX: 0
+    m_offsetY: 0
+    m_metallic: 0
+    m_smoothness: 0
+    m_spawnCriteria: []
+    m_LayerGUID: 
+    m_normalScale: 1
+    m_diffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
+    m_diffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+    m_maskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
+    m_maskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
+    m_specularColor: {r: 0, g: 0, b: 0, a: 0}
+    m_channelRemapFoldedOut: 0
+  m_treeResourcePrototypeBeingDrawn:
+    m_name: 
+    m_desktopPrefab: {fileID: 0}
+    m_desktopPrefabFileName: 
+    m_mobilePrefabFileName: 
+    m_bendFactor: 0
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+    m_snapToTerrain: 1
+    m_customOffset: 0
+    m_minYOffset: -2
+    m_maxYOffset: 2
+    m_yOffsetBasedOn: 0
+    m_spawnScale: 1
+    m_minWidth: 0.75
+    m_maxWidth: 1.5
+    m_minHeight: 0.75
+    m_maxHeight: 1.5
+    m_widthRandomPercentage: 0.5
+    m_heightRandomPercentage: 0.5
+    m_lastUsedSpawnScale: 1
+    m_lastUsedMinWidth: 0.75
+    m_lastUsedMaxWidth: 1.5
+    m_lastUsedMinHeight: 0.75
+    m_lastUsedMaxHeight: 1.5
+    m_lastUsedWidthRandomPercentage: 0.5
+    m_lastUsedHeightRandomPercentage: 0.5
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+    m_useFlora: 0
+    m_floraLODs: []
+    m_pwDetailerSettingsObject: {fileID: 0}
+    m_detailerSettingsObjectAssetGUID: 
+    m_detailerSettingsObjectInstanceID: 0
+  m_terrainDetailPrototypeBeingDrawn:
+    m_name: 
+    m_renderMode: 2
+    m_useInstancing: 0
+    m_alignToGround: 0
+    m_density: 1
+    m_holeEdgePadding: 0
+    m_noiseSeed: 0
+    m_positionJitter: 0
+    m_targetCoverage: 1
+    m_useDensityScaling: 1
+    m_detailProtoype: {fileID: 0}
+    m_detailPrototypeFileName: 
+    m_detailTexture: {fileID: 0}
+    m_detailTextureFileName: 
+    m_minWidth: 1
+    m_maxWidth: 2
+    m_minHeight: 1
+    m_maxHeight: 2
+    m_noiseSpread: 0.3
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+    m_useFlora: 0
+    m_floraLODs: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_dnaFoldedOut: 0
+  m_gameObjectResourcePrototypeBeingDrawn:
+    m_name: 
+    m_instances: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_canSpawnAsTree: 0
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+  m_spawnExtensionPrototypeBeingDrawn:
+    m_name: 
+    m_instances: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+  m_stampDistributionPrototypeBeingDrawn:
+    m_featureType: 
+    m_stampInfluence: 1
+    m_borderMaskStyle: 1
+    m_borderMaskType: Masks
+    m_operation: 13
+    m_stackedChance: 0
+    m_minWidth: 50
+    m_maxWidth: 200
+    m_tieWidthToStrength: 1
+    m_minHeight: 1
+    m_maxHeight: 5
+    m_minMixStrength: 0.1
+    m_maxMixStrength: 0.25
+    m_minMixMidPoint: 0.25
+    m_maxMixMidPoint: 0.75
+    m_tieHeightToStrength: 1
+    m_minYOffset: -1
+    m_maxYOffset: 1
+    m_invertChance: 0
+    m_inputHeightToStampHeightMapping:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_inputHeightToProbabilityMapping:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_spawnProbability: 0
+  m_worldBiomeMaskPrototypeBeingDrawn:
+    m_name: 
+    m_biomePreset: {fileID: 0}
+  m_probePrototypeBeingDrawn:
+    m_name: 
+    m_probeType: 0
+    m_reflectionProbeData:
+      reflectionProbeMode: 1
+      reflectionProbeRefresh: 0
+      reflectionCubemapCompression: 2
+      reflectionProbeTimeSlicingMode: 1
+      reflectionProbesPerRow: 5
+      reflectionProbeOffset: 1.8
+      reflectionProbeClipPlaneDistance: 1000
+      reflectionProbeBlendDistance: 5
+      reflectionprobeCullingMask:
+        serializedVersion: 2
+        m_Bits: 1
+      reflectionProbeShadowDistance: 100
+      reflectionProbeResolution: 2
+      lightProbesPerRow: 50
+      lightProbeSpawnRadius: 25
+      seaLevel: 50
+      filterMode: 1
+  m_terrainModifierStampBeingDrawn:
+    m_name: 
+    m_y: 50
+    m_height: 10
+    m_absoluteHeightValue: 0
+    m_rotation: 0
+    m_blendStrength: 0.5
+    m_operation: 0
+    m_heightTransformCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_contrastFeatureSize: 10
+    m_contrastStrength: 2
+    m_terraceCount: 100
+    m_terraceJitterCount: 0.5
+    m_terraceBevelAmountInterior: 0
+    m_sharpenRidgesMixStrength: 0.5
+    m_sharpenRidgesIterations: 16
+    m_powerOf: 0
+    m_smoothVerticality: 0
+    m_smoothBlurRadius: 10
+    m_stamperInputImageMask:
+      m_active: 1
+      m_invert: 0
+      m_hasErrors: 0
+      m_influence: 0
+      m_operation: 0
+      m_blendMode: 0
+      m_imageMaskLocation: 0
+      m_strength: 1
+      m_seaLevel: 0
+      m_maxWorldHeight: 0
+      m_minWorldHeight: 0
+      m_xOffSet: 0
+      m_zOffSet: 0
+      m_xOffSetScalar: 0
+      m_zOffSetScalar: 0
+      m_xScale: 1
+      m_zScale: 1
+      m_rotationDegrees: 0
+      m_tiling: 0
+      m_imageMaskSpace: 0
+      m_imageMaskTextureGUID: 
+      m_imageMaskFilterMode: 0
+      m_imageMaskColorSelectionColor: {r: 1, g: 1, b: 1, a: 1}
+      m_imageMaskColorSelectionAccuracy: 0.5
+      m_distanceMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_strengthTransformCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_heightMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_heightMaskType: 1
+      m_heightMaskUnit: 1
+      m_relativeHeightMin: 25
+      m_relativeHeightMax: 75
+      m_absoluteHeightMin: 50
+      m_absoluteHeightMax: 150
+      m_seaLevelRelativeHeightMin: -109876.55
+      m_seaLevelRelativeHeightMax: 109876.55
+      tree1active: 0
+      tree2active: 0
+      m_slopeMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_slopeMin: 0
+      m_slopeMax: 0.1
+      m_distanceMaskAxes: 3
+      m_gaiaNoiseSettings:
+        m_translation: {x: 0, y: 0, z: 0}
+        m_rotation: {x: 0, y: 0, z: 0}
+        m_scale: {x: 10, y: 1, z: 10}
+        m_noiseTypeName: Perlin
+        m_noiseTypeParams: 
+        m_fractalTypeName: Fbm
+        m_fractalTypeParams: 
+        m_warpEnabled: 0
+        m_warpIterations: 0
+        m_warpStrength: 0
+        m_warpOffset: {x: 0, y: 0, z: 0, w: 0}
+      m_noiseSettings: {fileID: 0}
+      m_noiseToolSettings:
+        worldHeightRemap: {x: 0, y: 0}
+        coordSpace: 0
+        noiseAssetGUID: 
+      m_ShowNoiseTransformSettings: 0
+      m_ShowNoisePreviewTexture: 1
+      m_noisePreviewTextureLocked: 0
+      m_ShowNoiseTypeSettings: 0
+      m_scaleNoiseToTerrainSize: 0
+      m_distanceMaskSquareRoundness: 0.25
+      m_collisionMaskExpanded: 1
+      m_collisionMasks: []
+      m_erosionMaskOutput: 0
+      m_erosionSimScale: 9
+      m_erosionHydroTimeDelta: 0.05
+      m_erosionHydroIterations: 15
+      m_erosionThermalTimeDelta: 0.01
+      m_erosionThermalIterations: 80
+      m_erosionThermalReposeAngle: 80
+      m_erosionPrecipRate: 0.5
+      m_erosionEvaporationRate: 0.5
+      m_erosionFlowRate: 0.5
+      m_erosionSedimentCapacity: 0.5
+      m_erosionSedimentDepositRate: 0.8
+      m_erosionSedimentDissolveRate: 0.5
+      m_erosionRiverBankDepositRate: 7
+      m_erosionRiverBankDissolveRate: 5
+      m_erosionRiverBedDepositRate: 5
+      m_erosionRiverBedDissolveRate: 5
+      m_erosionShowAdvancedUI: 0
+      m_erosionShowThermalUI: 0
+      m_erosionShowWaterUI: 0
+      m_erosionShowSedimentUI: 0
+      m_erosionShowRiverBankUI: 0
+      m_smoothVerticality: 0
+      m_smoothBlurRadius: 1
+      m_textureMaskSpawnRuleGUID: 
+      m_concavity: 1
+      m_concavityFeatureSize: 10
+      m_foldedOut: 1
+      m_selectedWorldBiomeMaskGUID: 
+      m_growAndShrinkValue: 0
+      m_globalSpawnerMaskStackRT: {fileID: 0}
+    m_mixMidPoint: 0.5
+    m_mixHeightStrength: 0.5
+  m_useExistingTerrainForWorldMapExport: 0
+  m_stampOperationsFoldedOut: 0
+  m_worldSizeAdvancedUnfolded: 0
+  m_worldTileSize: 0
+  m_worldDesignerBiomePresetSelection: -2147483648
+  m_worldDesignerPreviewMode: 0
+  m_BiomeSpawnersToCreate: []
+  m_lastStampSpawnWorldSize: {x: 0, y: 0, z: 0}
+  m_lastExportedHeightMapResolution: 0
+  m_lastExportedWorldSize: 0
+  m_qualityPresetAdvancedUnfolded: 0
+  m_biomeMaskPanelUnfolded: 0
+  m_spawnStampsPanelUnfolded: 0
+  m_ExportRunning: 0
+  m_dropAreaResource: 0
+  m_highlightLoadingSettings: 0
+  m_highlightLoadingSettingsStartedTimeStamp: 0
+  m_foldoutSpawnerSettings: 0
+  m_worldDesignerUserBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_worldDesignerSampleObjectPos1: {x: 0, y: 0, z: 0}
+  m_worldDesignerSampleObjectPos2: {x: 0, y: 0, z: 0}
+  m_worldDesignerSampleObjectPos3: {x: 0, y: 0, z: 0}
+  m_drawWorldDesignerSampleObjects: 1
+  m_drawWorldDesignerHandles: 0
+  m_drawWorldDesignerRulers: 1
+  m_drawWorldDesignerDensityViz: 0
+  m_autoStampDensityVisualizationTimeStamp: 0
+--- !u!114 &3543086181239562879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181239562877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0658d731d3f1d5e4496b3a48cbac80e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_loadingBoundsRegular:
+    m_Center:
+      x: 2816
+      y: 0
+      z: 2816
+    m_Extents:
+      x: 1023.75
+      y: 1023.75
+      z: 1023.75
+  m_loadingBoundsImpostor:
+    m_Center:
+      x: 2816
+      y: 0
+      z: 2816
+    m_Extents:
+      x: 0
+      y: 0
+      z: 0
+  m_loadingBoundsCollider:
+    m_Center:
+      x: 0
+      y: 0
+      z: 0
+    m_Extents:
+      x: 0
+      y: 0
+      z: 0
+  m_loadMode: 1
+  m_isSelected: 0
+  m_beingDragged: 0
+  m_minRefreshDistance: 100
+  m_maxRefreshDistance: 2000
+  m_minRefreshMS: 100
+  m_maxRefreshMS: 5000
+  m_followTransform: 1
+--- !u!1 &3543086181281787415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3543086181281787432}
+  - component: {fileID: 3543086181281787434}
+  - component: {fileID: 3543086181281787433}
+  m_Layer: 0
+  m_Name: Gaia Pro Sample-Texture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3543086181281787432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181281787415}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.00010681152, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3543086181417214273}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3543086181281787434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181281787415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df16ee49ef1a2246ba1007a065388a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings: {fileID: 0}
+  worldCreationSettings: {fileID: 0}
+  baseTerrainsettings: {fileID: 0}
+  m_worldMapStamperSettings: []
+  m_loadTerrainMode: 1
+  m_impostorLoadingRange: 0
+  m_connectedCTSProfileGUID: 
+  m_spawnerID: 5442b2b9-17d3-4b73-9c15-69673997d732
+  m_mode: 0
+  m_seed: 202
+  m_spawnerShape: 0
+  m_spawnRuleSelector: 2
+  m_spawnLocationAlgorithm: 0
+  m_spawnLocationCheckType: 0
+  m_locationIncrement: 1
+  m_maxJitteredLocationOffsetPct: 0.9
+  m_locationChecksPerInt: 1
+  m_maxRandomClusterSize: 50
+  m_spawnFitnessAttenuator:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_areaMaskMode: 0
+  m_enableColliderCacheAtRuntime: 0
+  m_imageMask: {fileID: 0}
+  m_imageMaskInvert: 0
+  m_imageMaskNormalise: 0
+  m_imageMaskFlip: 0
+  m_imageMaskSmoothIterations: 3
+  m_noiseMaskSeed: 0
+  m_noiseMaskOctaves: 8
+  m_noiseMaskPersistence: 0.25
+  m_noiseMaskFrequency: 1
+  m_noiseMaskLacunarity: 1.5
+  m_noiseZoom: 10
+  m_noiseInvert: 0
+  m_spawnInterval: 5
+  m_triggerTags: Player
+  m_triggerRange: 130
+  m_spawnCollisionLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  m_spawnColliderLayer: 6
+  m_showGizmos: 1
+  m_showDebug: 0
+  m_baseTerrainStamped: 0
+  m_updateTimeAllowed: 0.033333335
+  m_spawnProgress: 0
+  m_spawnComplete: 1
+  m_spawnerBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_spawnPreviewDirty: 1
+  m_lastActiveTerrainSize: 512
+  m_spawnRuleRegularToggleAllState: 1
+  m_spawnRuleBiomeMasksToggleAllState: 1
+  m_spawnRuleStampsToggleAllState: 1
+  m_drawPreview: 0
+  m_previewRuleIds: 
+  m_maxWorldHeight: 104.407845
+  m_minWorldHeight: 0
+  m_showSeaLevelinStampPreview: 1
+  m_terrainGeneratorPanelUnfolded: 1
+  m_worldDesignerPreviewSettingsUnfolded: 0
+  m_rulePanelUnfolded: 1
+  m_createBaseTerrainUnfolded: 0
+  m_sizeAndResolutionUnfolded: 1
+  m_exportTerrainUnfolded: 0
+  m_worldBiomeMasksUnfolded: 0
+  m_createdfromBiomePreset: 0
+  m_createdFromGaiaManager: 0
+  m_showSeaLevelPlane: 0
+  m_showBoundingBox: 1
+  m_seaLevel: 0
+  m_worldDesignerPreviewTileX: -99
+  m_worldDesignerPreviewTileZ: -99
+  m_worldDesignerClearStampsWarningShown: 0
+  m_maskListBeingDrawn: []
+  m_collisionMaskListBeingDrawn: []
+  m_spawnRuleIndexBeingDrawn: 0
+  m_spawnRuleMaskIndexBeingDrawn: 0
+  m_textureResourcePrototypeBeingDrawn:
+    m_name: 
+    m_texture: {fileID: 0}
+    m_textureFileName: 
+    m_normal: {fileID: 0}
+    m_maskmap: {fileID: 0}
+    m_CTSSmoothnessMap: {fileID: 0}
+    m_CTSRoughnessMap: {fileID: 0}
+    m_CTSHeightMap: {fileID: 0}
+    m_CTSAmbientOcclusionMap: {fileID: 0}
+    m_normalFileName: 
+    m_sizeX: 8
+    m_sizeY: 8
+    m_offsetX: 0
+    m_offsetY: 0
+    m_metallic: 0
+    m_smoothness: 0
+    m_spawnCriteria: []
+    m_LayerGUID: 
+    m_normalScale: 1
+    m_diffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
+    m_diffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+    m_maskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
+    m_maskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
+    m_specularColor: {r: 0, g: 0, b: 0, a: 0}
+    m_channelRemapFoldedOut: 0
+  m_treeResourcePrototypeBeingDrawn:
+    m_name: 
+    m_desktopPrefab: {fileID: 0}
+    m_desktopPrefabFileName: 
+    m_mobilePrefabFileName: 
+    m_bendFactor: 0
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+    m_snapToTerrain: 1
+    m_customOffset: 0
+    m_minYOffset: -2
+    m_maxYOffset: 2
+    m_yOffsetBasedOn: 0
+    m_spawnScale: 1
+    m_minWidth: 0.75
+    m_maxWidth: 1.5
+    m_minHeight: 0.75
+    m_maxHeight: 1.5
+    m_widthRandomPercentage: 0.5
+    m_heightRandomPercentage: 0.5
+    m_lastUsedSpawnScale: 1
+    m_lastUsedMinWidth: 0.75
+    m_lastUsedMaxWidth: 1.5
+    m_lastUsedMinHeight: 0.75
+    m_lastUsedMaxHeight: 1.5
+    m_lastUsedWidthRandomPercentage: 0.5
+    m_lastUsedHeightRandomPercentage: 0.5
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+    m_useFlora: 0
+    m_floraLODs: []
+    m_pwDetailerSettingsObject: {fileID: 0}
+    m_detailerSettingsObjectAssetGUID: 
+    m_detailerSettingsObjectInstanceID: 0
+  m_terrainDetailPrototypeBeingDrawn:
+    m_name: 
+    m_renderMode: 2
+    m_useInstancing: 0
+    m_alignToGround: 0
+    m_density: 1
+    m_holeEdgePadding: 0
+    m_noiseSeed: 0
+    m_positionJitter: 0
+    m_targetCoverage: 1
+    m_useDensityScaling: 1
+    m_detailProtoype: {fileID: 0}
+    m_detailPrototypeFileName: 
+    m_detailTexture: {fileID: 0}
+    m_detailTextureFileName: 
+    m_minWidth: 1
+    m_maxWidth: 2
+    m_minHeight: 1
+    m_maxHeight: 2
+    m_noiseSpread: 0.3
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+    m_useFlora: 0
+    m_floraLODs: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_dnaFoldedOut: 0
+  m_gameObjectResourcePrototypeBeingDrawn:
+    m_name: 
+    m_instances: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_canSpawnAsTree: 0
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+  m_spawnExtensionPrototypeBeingDrawn:
+    m_name: 
+    m_instances: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+  m_stampDistributionPrototypeBeingDrawn:
+    m_featureType: 
+    m_stampInfluence: 1
+    m_borderMaskStyle: 1
+    m_borderMaskType: Masks
+    m_operation: 13
+    m_stackedChance: 0
+    m_minWidth: 50
+    m_maxWidth: 200
+    m_tieWidthToStrength: 1
+    m_minHeight: 1
+    m_maxHeight: 5
+    m_minMixStrength: 0.1
+    m_maxMixStrength: 0.25
+    m_minMixMidPoint: 0.25
+    m_maxMixMidPoint: 0.75
+    m_tieHeightToStrength: 1
+    m_minYOffset: -1
+    m_maxYOffset: 1
+    m_invertChance: 0
+    m_inputHeightToStampHeightMapping:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_inputHeightToProbabilityMapping:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_spawnProbability: 0
+  m_worldBiomeMaskPrototypeBeingDrawn:
+    m_name: 
+    m_biomePreset: {fileID: 0}
+  m_probePrototypeBeingDrawn:
+    m_name: 
+    m_probeType: 0
+    m_reflectionProbeData:
+      reflectionProbeMode: 1
+      reflectionProbeRefresh: 0
+      reflectionCubemapCompression: 2
+      reflectionProbeTimeSlicingMode: 1
+      reflectionProbesPerRow: 5
+      reflectionProbeOffset: 1.8
+      reflectionProbeClipPlaneDistance: 1000
+      reflectionProbeBlendDistance: 5
+      reflectionprobeCullingMask:
+        serializedVersion: 2
+        m_Bits: 1
+      reflectionProbeShadowDistance: 100
+      reflectionProbeResolution: 2
+      lightProbesPerRow: 50
+      lightProbeSpawnRadius: 25
+      seaLevel: 50
+      filterMode: 1
+  m_terrainModifierStampBeingDrawn:
+    m_name: 
+    m_y: 50
+    m_height: 10
+    m_absoluteHeightValue: 0
+    m_rotation: 0
+    m_blendStrength: 0.5
+    m_operation: 0
+    m_heightTransformCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_contrastFeatureSize: 10
+    m_contrastStrength: 2
+    m_terraceCount: 100
+    m_terraceJitterCount: 0.5
+    m_terraceBevelAmountInterior: 0
+    m_sharpenRidgesMixStrength: 0.5
+    m_sharpenRidgesIterations: 16
+    m_powerOf: 0
+    m_smoothVerticality: 0
+    m_smoothBlurRadius: 10
+    m_stamperInputImageMask:
+      m_active: 1
+      m_invert: 0
+      m_hasErrors: 0
+      m_influence: 0
+      m_operation: 0
+      m_blendMode: 0
+      m_imageMaskLocation: 0
+      m_strength: 1
+      m_seaLevel: 0
+      m_maxWorldHeight: 0
+      m_minWorldHeight: 0
+      m_xOffSet: 0
+      m_zOffSet: 0
+      m_xOffSetScalar: 0
+      m_zOffSetScalar: 0
+      m_xScale: 1
+      m_zScale: 1
+      m_rotationDegrees: 0
+      m_tiling: 0
+      m_imageMaskSpace: 0
+      m_imageMaskTextureGUID: 
+      m_imageMaskFilterMode: 0
+      m_imageMaskColorSelectionColor: {r: 1, g: 1, b: 1, a: 1}
+      m_imageMaskColorSelectionAccuracy: 0.5
+      m_distanceMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_strengthTransformCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_heightMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_heightMaskType: 1
+      m_heightMaskUnit: 1
+      m_relativeHeightMin: 25
+      m_relativeHeightMax: 75
+      m_absoluteHeightMin: 50
+      m_absoluteHeightMax: 150
+      m_seaLevelRelativeHeightMin: -109876.55
+      m_seaLevelRelativeHeightMax: 109876.55
+      tree1active: 0
+      tree2active: 0
+      m_slopeMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_slopeMin: 0
+      m_slopeMax: 0.1
+      m_distanceMaskAxes: 3
+      m_gaiaNoiseSettings:
+        m_translation: {x: 0, y: 0, z: 0}
+        m_rotation: {x: 0, y: 0, z: 0}
+        m_scale: {x: 10, y: 1, z: 10}
+        m_noiseTypeName: Perlin
+        m_noiseTypeParams: 
+        m_fractalTypeName: Fbm
+        m_fractalTypeParams: 
+        m_warpEnabled: 0
+        m_warpIterations: 0
+        m_warpStrength: 0
+        m_warpOffset: {x: 0, y: 0, z: 0, w: 0}
+      m_noiseSettings: {fileID: 0}
+      m_noiseToolSettings:
+        worldHeightRemap: {x: 0, y: 0}
+        coordSpace: 0
+        noiseAssetGUID: 
+      m_ShowNoiseTransformSettings: 0
+      m_ShowNoisePreviewTexture: 1
+      m_noisePreviewTextureLocked: 0
+      m_ShowNoiseTypeSettings: 0
+      m_scaleNoiseToTerrainSize: 0
+      m_distanceMaskSquareRoundness: 0.25
+      m_collisionMaskExpanded: 1
+      m_collisionMasks: []
+      m_erosionMaskOutput: 0
+      m_erosionSimScale: 9
+      m_erosionHydroTimeDelta: 0.05
+      m_erosionHydroIterations: 15
+      m_erosionThermalTimeDelta: 0.01
+      m_erosionThermalIterations: 80
+      m_erosionThermalReposeAngle: 80
+      m_erosionPrecipRate: 0.5
+      m_erosionEvaporationRate: 0.5
+      m_erosionFlowRate: 0.5
+      m_erosionSedimentCapacity: 0.5
+      m_erosionSedimentDepositRate: 0.8
+      m_erosionSedimentDissolveRate: 0.5
+      m_erosionRiverBankDepositRate: 7
+      m_erosionRiverBankDissolveRate: 5
+      m_erosionRiverBedDepositRate: 5
+      m_erosionRiverBedDissolveRate: 5
+      m_erosionShowAdvancedUI: 0
+      m_erosionShowThermalUI: 0
+      m_erosionShowWaterUI: 0
+      m_erosionShowSedimentUI: 0
+      m_erosionShowRiverBankUI: 0
+      m_smoothVerticality: 0
+      m_smoothBlurRadius: 1
+      m_textureMaskSpawnRuleGUID: 
+      m_concavity: 1
+      m_concavityFeatureSize: 10
+      m_foldedOut: 1
+      m_selectedWorldBiomeMaskGUID: 
+      m_growAndShrinkValue: 0
+      m_globalSpawnerMaskStackRT: {fileID: 0}
+    m_mixMidPoint: 0.5
+    m_mixHeightStrength: 0.5
+  m_useExistingTerrainForWorldMapExport: 0
+  m_stampOperationsFoldedOut: 0
+  m_worldSizeAdvancedUnfolded: 0
+  m_worldTileSize: 0
+  m_worldDesignerBiomePresetSelection: -2147483648
+  m_worldDesignerPreviewMode: 0
+  m_BiomeSpawnersToCreate: []
+  m_lastStampSpawnWorldSize: {x: 0, y: 0, z: 0}
+  m_lastExportedHeightMapResolution: 0
+  m_lastExportedWorldSize: 0
+  m_qualityPresetAdvancedUnfolded: 0
+  m_biomeMaskPanelUnfolded: 0
+  m_spawnStampsPanelUnfolded: 0
+  m_ExportRunning: 0
+  m_dropAreaResource: 0
+  m_highlightLoadingSettings: 0
+  m_highlightLoadingSettingsStartedTimeStamp: 0
+  m_foldoutSpawnerSettings: 0
+  m_worldDesignerUserBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_worldDesignerSampleObjectPos1: {x: 0, y: 0, z: 0}
+  m_worldDesignerSampleObjectPos2: {x: 0, y: 0, z: 0}
+  m_worldDesignerSampleObjectPos3: {x: 0, y: 0, z: 0}
+  m_drawWorldDesignerSampleObjects: 1
+  m_drawWorldDesignerHandles: 0
+  m_drawWorldDesignerRulers: 1
+  m_drawWorldDesignerDensityViz: 0
+  m_autoStampDensityVisualizationTimeStamp: 0
+--- !u!114 &3543086181281787433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181281787415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0658d731d3f1d5e4496b3a48cbac80e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_loadingBoundsRegular:
+    m_Center:
+      x: 0
+      y: 0
+      z: 0
+    m_Extents:
+      x: 0
+      y: 0
+      z: 0
+  m_loadingBoundsImpostor:
+    m_Center:
+      x: 0
+      y: 0
+      z: 0
+    m_Extents:
+      x: 0
+      y: 0
+      z: 0
+  m_loadingBoundsCollider:
+    m_Center:
+      x: 0
+      y: 0
+      z: 0
+    m_Extents:
+      x: 0
+      y: 0
+      z: 0
+  m_loadMode: 1
+  m_isSelected: 0
+  m_beingDragged: 0
+  m_minRefreshDistance: 100
+  m_maxRefreshDistance: 2000
+  m_minRefreshMS: 100
+  m_maxRefreshMS: 5000
+  m_followTransform: 1
+--- !u!1 &3543086181417214272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3543086181417214273}
+  - component: {fileID: 3543086181417214274}
+  m_Layer: 0
+  m_Name: Custom Biome
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3543086181417214273
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181417214272}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3543086181281787432}
+  m_Father: {fileID: 3543086181193848578}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3543086181417214274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181417214272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd63de8b80658e841978e0280130ee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings: {fileID: 0}
+  m_autoSpawnersToggleAll: 0
+  m_autoSpawners:
+  - isActive: 1
+    status: 0
+    lastSpawnTimeStamp: -3.4028235e+38
+    spawner: {fileID: 3543086181281787434}
+  m_autoSpawnRequested: 0
+  m_drawPreview: 0
+  m_biomePreviewDirty: 1
+  m_autoSpawnerArea: 0
+  m_showSeaLevelPlane: 1
+  m_showSeaLevelinPreview: 1
+  m_showBoundingBox: 1
+  m_oldName: 
+  m_changesMadeSinceLastSave: 0
+  m_biomeWasSpawned: 0
+  m_highlightLoadingSettings: 0
+  m_highlightLoadingSettingsStartedTimeStamp: 0
+  m_loadTerrainMode: 0
+  m_impostorLoadingRange: 0
+--- !u!1 &3543086181549639653
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3543086181549639654}
+  - component: {fileID: 3543086181549639655}
+  m_Layer: 0
+  m_Name: Synty Farm Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3543086181549639654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181549639653}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 6.492584, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3543086182593245908}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3543086181549639655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181549639653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df16ee49ef1a2246ba1007a065388a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings: {fileID: 0}
+  worldCreationSettings: {fileID: 0}
+  baseTerrainsettings: {fileID: 0}
+  m_worldMapStamperSettings: []
+  m_loadTerrainMode: 1
+  m_impostorLoadingRange: 0
+  m_connectedCTSProfileGUID: 
+  m_spawnerID: 69701847-9783-48f9-928c-45898280bd19
+  m_mode: 0
+  m_seed: 708
+  m_spawnerShape: 0
+  m_spawnRuleSelector: 2
+  m_spawnLocationAlgorithm: 0
+  m_spawnLocationCheckType: 0
+  m_locationIncrement: 1
+  m_maxJitteredLocationOffsetPct: 0.9
+  m_locationChecksPerInt: 1
+  m_maxRandomClusterSize: 50
+  m_spawnFitnessAttenuator:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_areaMaskMode: 0
+  m_enableColliderCacheAtRuntime: 0
+  m_imageMask: {fileID: 0}
+  m_imageMaskInvert: 0
+  m_imageMaskNormalise: 0
+  m_imageMaskFlip: 0
+  m_imageMaskSmoothIterations: 3
+  m_noiseMaskSeed: 0
+  m_noiseMaskOctaves: 8
+  m_noiseMaskPersistence: 0.25
+  m_noiseMaskFrequency: 1
+  m_noiseMaskLacunarity: 1.5
+  m_noiseZoom: 10
+  m_noiseInvert: 0
+  m_spawnInterval: 5
+  m_triggerTags: Player
+  m_triggerRange: 130
+  m_spawnCollisionLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  m_spawnColliderLayer: 6
+  m_showGizmos: 1
+  m_showDebug: 0
+  m_baseTerrainStamped: 0
+  m_updateTimeAllowed: 0.033333335
+  m_spawnProgress: 0
+  m_spawnComplete: 1
+  m_spawnerBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_spawnPreviewDirty: 1
+  m_lastActiveTerrainSize: 512
+  m_spawnRuleRegularToggleAllState: 1
+  m_spawnRuleBiomeMasksToggleAllState: 1
+  m_spawnRuleStampsToggleAllState: 1
+  m_drawPreview: 0
+  m_previewRuleIds: 
+  m_maxWorldHeight: 104.407845
+  m_minWorldHeight: 0
+  m_showSeaLevelinStampPreview: 1
+  m_terrainGeneratorPanelUnfolded: 1
+  m_worldDesignerPreviewSettingsUnfolded: 0
+  m_rulePanelUnfolded: 1
+  m_createBaseTerrainUnfolded: 0
+  m_sizeAndResolutionUnfolded: 1
+  m_exportTerrainUnfolded: 0
+  m_worldBiomeMasksUnfolded: 0
+  m_createdfromBiomePreset: 0
+  m_createdFromGaiaManager: 0
+  m_showSeaLevelPlane: 0
+  m_showBoundingBox: 1
+  m_seaLevel: 0
+  m_worldDesignerPreviewTileX: -99
+  m_worldDesignerPreviewTileZ: -99
+  m_worldDesignerClearStampsWarningShown: 0
+  m_maskListBeingDrawn: []
+  m_collisionMaskListBeingDrawn: []
+  m_spawnRuleIndexBeingDrawn: 0
+  m_spawnRuleMaskIndexBeingDrawn: 0
+  m_textureResourcePrototypeBeingDrawn:
+    m_name: 
+    m_texture: {fileID: 0}
+    m_textureFileName: 
+    m_normal: {fileID: 0}
+    m_maskmap: {fileID: 0}
+    m_CTSSmoothnessMap: {fileID: 0}
+    m_CTSRoughnessMap: {fileID: 0}
+    m_CTSHeightMap: {fileID: 0}
+    m_CTSAmbientOcclusionMap: {fileID: 0}
+    m_normalFileName: 
+    m_sizeX: 8
+    m_sizeY: 8
+    m_offsetX: 0
+    m_offsetY: 0
+    m_metallic: 0
+    m_smoothness: 0
+    m_spawnCriteria: []
+    m_LayerGUID: 
+    m_normalScale: 1
+    m_diffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
+    m_diffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+    m_maskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
+    m_maskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
+    m_specularColor: {r: 0, g: 0, b: 0, a: 0}
+    m_channelRemapFoldedOut: 0
+  m_treeResourcePrototypeBeingDrawn:
+    m_name: 
+    m_desktopPrefab: {fileID: 0}
+    m_desktopPrefabFileName: 
+    m_mobilePrefabFileName: 
+    m_bendFactor: 0
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+    m_snapToTerrain: 1
+    m_customOffset: 0
+    m_minYOffset: -2
+    m_maxYOffset: 2
+    m_yOffsetBasedOn: 0
+    m_spawnScale: 1
+    m_minWidth: 0.75
+    m_maxWidth: 1.5
+    m_minHeight: 0.75
+    m_maxHeight: 1.5
+    m_widthRandomPercentage: 0.5
+    m_heightRandomPercentage: 0.5
+    m_lastUsedSpawnScale: 1
+    m_lastUsedMinWidth: 0.75
+    m_lastUsedMaxWidth: 1.5
+    m_lastUsedMinHeight: 0.75
+    m_lastUsedMaxHeight: 1.5
+    m_lastUsedWidthRandomPercentage: 0.5
+    m_lastUsedHeightRandomPercentage: 0.5
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+    m_useFlora: 0
+    m_floraLODs: []
+    m_pwDetailerSettingsObject: {fileID: 0}
+    m_detailerSettingsObjectAssetGUID: 
+    m_detailerSettingsObjectInstanceID: 0
+  m_terrainDetailPrototypeBeingDrawn:
+    m_name: 
+    m_renderMode: 2
+    m_useInstancing: 0
+    m_alignToGround: 0
+    m_density: 1
+    m_holeEdgePadding: 0
+    m_noiseSeed: 0
+    m_positionJitter: 0
+    m_targetCoverage: 1
+    m_useDensityScaling: 1
+    m_detailProtoype: {fileID: 0}
+    m_detailPrototypeFileName: 
+    m_detailTexture: {fileID: 0}
+    m_detailTextureFileName: 
+    m_minWidth: 1
+    m_maxWidth: 2
+    m_minHeight: 1
+    m_maxHeight: 2
+    m_noiseSpread: 0.3
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+    m_useFlora: 0
+    m_floraLODs: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_dnaFoldedOut: 0
+  m_gameObjectResourcePrototypeBeingDrawn:
+    m_name: 
+    m_instances: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_canSpawnAsTree: 0
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+  m_spawnExtensionPrototypeBeingDrawn:
+    m_name: 
+    m_instances: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+  m_stampDistributionPrototypeBeingDrawn:
+    m_featureType: 
+    m_stampInfluence: 1
+    m_borderMaskStyle: 1
+    m_borderMaskType: Masks
+    m_operation: 13
+    m_stackedChance: 0
+    m_minWidth: 50
+    m_maxWidth: 200
+    m_tieWidthToStrength: 1
+    m_minHeight: 1
+    m_maxHeight: 5
+    m_minMixStrength: 0.1
+    m_maxMixStrength: 0.25
+    m_minMixMidPoint: 0.25
+    m_maxMixMidPoint: 0.75
+    m_tieHeightToStrength: 1
+    m_minYOffset: -1
+    m_maxYOffset: 1
+    m_invertChance: 0
+    m_inputHeightToStampHeightMapping:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_inputHeightToProbabilityMapping:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_spawnProbability: 0
+  m_worldBiomeMaskPrototypeBeingDrawn:
+    m_name: 
+    m_biomePreset: {fileID: 0}
+  m_probePrototypeBeingDrawn:
+    m_name: 
+    m_probeType: 0
+    m_reflectionProbeData:
+      reflectionProbeMode: 1
+      reflectionProbeRefresh: 0
+      reflectionCubemapCompression: 2
+      reflectionProbeTimeSlicingMode: 1
+      reflectionProbesPerRow: 5
+      reflectionProbeOffset: 1.8
+      reflectionProbeClipPlaneDistance: 1000
+      reflectionProbeBlendDistance: 5
+      reflectionprobeCullingMask:
+        serializedVersion: 2
+        m_Bits: 1
+      reflectionProbeShadowDistance: 100
+      reflectionProbeResolution: 2
+      lightProbesPerRow: 50
+      lightProbeSpawnRadius: 25
+      seaLevel: 50
+      filterMode: 1
+  m_terrainModifierStampBeingDrawn:
+    m_name: 
+    m_y: 50
+    m_height: 10
+    m_absoluteHeightValue: 0
+    m_rotation: 0
+    m_blendStrength: 0.5
+    m_operation: 0
+    m_heightTransformCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_contrastFeatureSize: 10
+    m_contrastStrength: 2
+    m_terraceCount: 100
+    m_terraceJitterCount: 0.5
+    m_terraceBevelAmountInterior: 0
+    m_sharpenRidgesMixStrength: 0.5
+    m_sharpenRidgesIterations: 16
+    m_powerOf: 0
+    m_smoothVerticality: 0
+    m_smoothBlurRadius: 10
+    m_stamperInputImageMask:
+      m_active: 1
+      m_invert: 0
+      m_hasErrors: 0
+      m_influence: 0
+      m_operation: 0
+      m_blendMode: 0
+      m_imageMaskLocation: 0
+      m_strength: 1
+      m_seaLevel: 0
+      m_maxWorldHeight: 0
+      m_minWorldHeight: 0
+      m_xOffSet: 0
+      m_zOffSet: 0
+      m_xOffSetScalar: 0
+      m_zOffSetScalar: 0
+      m_xScale: 1
+      m_zScale: 1
+      m_rotationDegrees: 0
+      m_tiling: 0
+      m_imageMaskSpace: 0
+      m_imageMaskTextureGUID: 
+      m_imageMaskFilterMode: 0
+      m_imageMaskColorSelectionColor: {r: 1, g: 1, b: 1, a: 1}
+      m_imageMaskColorSelectionAccuracy: 0.5
+      m_distanceMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_strengthTransformCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_heightMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_heightMaskType: 1
+      m_heightMaskUnit: 1
+      m_relativeHeightMin: 25
+      m_relativeHeightMax: 75
+      m_absoluteHeightMin: 50
+      m_absoluteHeightMax: 150
+      m_seaLevelRelativeHeightMin: -109876.55
+      m_seaLevelRelativeHeightMax: 109876.55
+      tree1active: 0
+      tree2active: 0
+      m_slopeMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_slopeMin: 0
+      m_slopeMax: 0.1
+      m_distanceMaskAxes: 3
+      m_gaiaNoiseSettings:
+        m_translation: {x: 0, y: 0, z: 0}
+        m_rotation: {x: 0, y: 0, z: 0}
+        m_scale: {x: 10, y: 1, z: 10}
+        m_noiseTypeName: Perlin
+        m_noiseTypeParams: 
+        m_fractalTypeName: Fbm
+        m_fractalTypeParams: 
+        m_warpEnabled: 0
+        m_warpIterations: 0
+        m_warpStrength: 0
+        m_warpOffset: {x: 0, y: 0, z: 0, w: 0}
+      m_noiseSettings: {fileID: 0}
+      m_noiseToolSettings:
+        worldHeightRemap: {x: 0, y: 0}
+        coordSpace: 0
+        noiseAssetGUID: 
+      m_ShowNoiseTransformSettings: 0
+      m_ShowNoisePreviewTexture: 1
+      m_noisePreviewTextureLocked: 0
+      m_ShowNoiseTypeSettings: 0
+      m_scaleNoiseToTerrainSize: 0
+      m_distanceMaskSquareRoundness: 0.25
+      m_collisionMaskExpanded: 1
+      m_collisionMasks: []
+      m_erosionMaskOutput: 0
+      m_erosionSimScale: 9
+      m_erosionHydroTimeDelta: 0.05
+      m_erosionHydroIterations: 15
+      m_erosionThermalTimeDelta: 0.01
+      m_erosionThermalIterations: 80
+      m_erosionThermalReposeAngle: 80
+      m_erosionPrecipRate: 0.5
+      m_erosionEvaporationRate: 0.5
+      m_erosionFlowRate: 0.5
+      m_erosionSedimentCapacity: 0.5
+      m_erosionSedimentDepositRate: 0.8
+      m_erosionSedimentDissolveRate: 0.5
+      m_erosionRiverBankDepositRate: 7
+      m_erosionRiverBankDissolveRate: 5
+      m_erosionRiverBedDepositRate: 5
+      m_erosionRiverBedDissolveRate: 5
+      m_erosionShowAdvancedUI: 0
+      m_erosionShowThermalUI: 0
+      m_erosionShowWaterUI: 0
+      m_erosionShowSedimentUI: 0
+      m_erosionShowRiverBankUI: 0
+      m_smoothVerticality: 0
+      m_smoothBlurRadius: 1
+      m_textureMaskSpawnRuleGUID: 
+      m_concavity: 1
+      m_concavityFeatureSize: 10
+      m_foldedOut: 1
+      m_selectedWorldBiomeMaskGUID: 
+      m_growAndShrinkValue: 0
+      m_globalSpawnerMaskStackRT: {fileID: 0}
+    m_mixMidPoint: 0.5
+    m_mixHeightStrength: 0.5
+  m_useExistingTerrainForWorldMapExport: 0
+  m_stampOperationsFoldedOut: 0
+  m_worldSizeAdvancedUnfolded: 0
+  m_worldTileSize: 0
+  m_worldDesignerBiomePresetSelection: -2147483648
+  m_worldDesignerPreviewMode: 0
+  m_BiomeSpawnersToCreate: []
+  m_lastStampSpawnWorldSize: {x: 0, y: 0, z: 0}
+  m_lastExportedHeightMapResolution: 0
+  m_lastExportedWorldSize: 0
+  m_qualityPresetAdvancedUnfolded: 0
+  m_biomeMaskPanelUnfolded: 0
+  m_spawnStampsPanelUnfolded: 0
+  m_ExportRunning: 0
+  m_dropAreaResource: 0
+  m_highlightLoadingSettings: 0
+  m_highlightLoadingSettingsStartedTimeStamp: 0
+  m_foldoutSpawnerSettings: 0
+  m_worldDesignerUserBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_worldDesignerSampleObjectPos1: {x: 0, y: 0, z: 0}
+  m_worldDesignerSampleObjectPos2: {x: 0, y: 0, z: 0}
+  m_worldDesignerSampleObjectPos3: {x: 0, y: 0, z: 0}
+  m_drawWorldDesignerSampleObjects: 1
+  m_drawWorldDesignerHandles: 0
+  m_drawWorldDesignerRulers: 1
+  m_drawWorldDesignerDensityViz: 0
+  m_autoStampDensityVisualizationTimeStamp: 0
+--- !u!1 &3543086181668790497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3543086181668790498}
+  - component: {fileID: 3543086181668790500}
+  - component: {fileID: 3543086181668790499}
+  m_Layer: 0
+  m_Name: Stamper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3543086181668790498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181668790497}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 590, y: -21, z: -479}
+  m_LocalScale: {x: 1000, y: 5, z: 1000}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3543086181193848578}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3543086181668790500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181668790497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a6de5e15bbf726429ed2f777b34dc8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_stampID: 8eaaeff9-cc40-442d-9a0d-1a38d470033a
+  m_stampImage: {fileID: 0}
+  m_stampImageGUID: 
+  m_autoSpawnersToggleAll: 0
+  m_autoMaskExportersToggleAll: 0
+  m_autoSpawners:
+  - isActive: 1
+    status: 1
+    lastSpawnTimeStamp: -3.4028235e+38
+    spawner: {fileID: 3543086181281787434}
+  m_autoMaskExporter: []
+  m_lastAffectedTerrains: []
+  m_lastActiveTerrainSize: 512
+  m_settings: {fileID: 0}
+  m_invertStamp: 0
+  m_normaliseStamp: 0
+  m_smoothIterations: 0
+  m_stencilHeight: 1
+  m_heightModifier:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_distanceMask:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_distanceMaskInfluence: 0
+  m_MaskTexturesDirty: 1
+  m_areaMaskMode: 0
+  m_imageMask: {fileID: 0}
+  m_imageMaskGUID: 
+  m_areaMaskInfluence: 0
+  m_imageMaskInvert: 0
+  m_imageMaskNormalise: 0
+  m_imageMaskFlip: 0
+  m_imageMaskSmoothIterations: 0
+  m_noiseMaskSeed: 0
+  m_noiseMaskOctaves: 8
+  m_noiseMaskPersistence: 0.25
+  m_noiseMaskFrequency: 1
+  m_noiseMaskLacunarity: 1.5
+  m_noiseZoom: 10
+  m_alwaysShow: 0
+  m_showBoundingBox: 1
+  m_showBase: 1
+  m_showSeaLevelPlane: 0
+  m_showRulers: 0
+  m_syncHeightmaps: 1
+  m_stampDirty: 1
+  m_worldMapStampToken: {fileID: 0}
+  m_recordUndo: 1
+  m_currentStamperUndoOperation: 2
+  m_stamperUndoOperations: []
+  m_linkedBiomeController: {fileID: 3543086182593245910}
+  m_cachedRenderTexture: {fileID: 0}
+  m_cachedMaskTexture: {fileID: 0}
+  m_drawPreview: 1
+  m_showSeaLevelinStampPreview: 1
+  m_maxCurrentTerrainHeight: 104.407845
+  m_minCurrentTerrainHeight: 0
+  m_activacteLocationSliders: 1
+  m_activatePreviewRequested: 0
+  m_activatePreviewTimeStamp: 1685730850916
+  m_heightUpdateRequested: 0
+  m_autoSpawnRequested: 0
+  m_autoMaskExportRequested: 0
+  m_autoSpawnStarted: 1
+  m_lastHeightmapUpdateTimeStamp: 1685730850628
+  m_openedFromTerrainGenerator: 0
+  m_hasStamped: 1
+  m_showAutoSpawnersOnEnable: 0
+  m_sessionEditMode: 0
+  m_sessionEditOperation:
+    m_description: 
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 6/2/2023 1:00:54 PM
+    scriptableObjectAssetGUID: 
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  m_impostorLoadingRange: 0
+  m_highlightLoadingSettings: 0
+  m_highlightLoadingSettingsStartedTimeStamp: 0
+  m_baseTerrainMinHeight: 0
+  m_baseTerrainMaxHeight: 0
+  m_firstFrameAfterStampSpawning: 0
+  m_worldDesignerStampVisColor0: {r: 1, g: 0, b: 0, a: 1}
+  m_worldDesignerStampVisColor1: {r: 0, g: 1, b: 0, a: 1}
+  m_worldDesignerStampVisColor2: {r: 0, g: 0, b: 1, a: 1}
+  m_worldDesignerStampVisColor3: {r: 0, g: 1, b: 1, a: 1}
+  m_worldDesignerStampVisColor4: {r: 1, g: 0, b: 1, a: 1}
+  m_worldDesignerMinHeight: 0
+  m_worldDesignerMaxHeight: 0
+  m_useCustomPreviewBounds: 0
+  m_worldDesignerPreviewBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_worldDesignerPreviewMode: 0
+  m_worldDesignerPreviewTiles: 0
+  m_worldDesignerRenderedStamps: 0
+  m_worldMapStamperSettings: []
+  m_loadTerrainMode: 0
+--- !u!114 &3543086181668790499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181668790497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0658d731d3f1d5e4496b3a48cbac80e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_loadingBoundsRegular:
+    m_Center:
+      x: 590
+      y: -21
+      z: -479
+    m_Extents:
+      x: 2559.999755859375
+      y: 76.79999542236328
+      z: 2559.999755859375
+  m_loadingBoundsImpostor:
+    m_Center:
+      x: 590
+      y: -21
+      z: -479
+    m_Extents:
+      x: 0
+      y: 0
+      z: 0
+  m_loadingBoundsCollider:
+    m_Center:
+      x: 0
+      y: 0
+      z: 0
+    m_Extents:
+      x: 0
+      y: 0
+      z: 0
+  m_loadMode: 0
+  m_isSelected: 0
+  m_beingDragged: 0
+  m_minRefreshDistance: 100
+  m_maxRefreshDistance: 2000
+  m_minRefreshMS: 100
+  m_maxRefreshMS: 5000
+  m_followTransform: 1
+--- !u!1 &3543086181860722653
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3543086181860722654}
+  - component: {fileID: 3543086181860722641}
+  - component: {fileID: 3543086181860722640}
+  - component: {fileID: 3543086181860722655}
+  m_Layer: 0
+  m_Name: World Designer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3543086181860722654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181860722653}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3543086182611509893}
+  m_Father: {fileID: 3543086181193848578}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3543086181860722641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181860722653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac03f3492a295864eaf17f49a2ba05cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_worldMapTerrain: {fileID: 0}
+  m_worldMapTileSize: 4
+  m_heightmapResolution: 2049
+--- !u!114 &3543086181860722640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181860722653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e6fe132ece01fb4aa7f13b4c2e4e27a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings: {fileID: 0}
+  worldCreationSettings: {fileID: 0}
+  baseTerrainsettings: {fileID: 0}
+  m_worldMapStamperSettings:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_loadTerrainMode: 1
+  m_impostorLoadingRange: 0
+  m_connectedCTSProfileGUID: 
+  m_spawnerID: ef83a96a-aba9-4bbb-aafd-b3cc51190356
+  m_mode: 0
+  m_seed: 880
+  m_spawnerShape: 0
+  m_spawnRuleSelector: 2
+  m_spawnLocationAlgorithm: 0
+  m_spawnLocationCheckType: 0
+  m_locationIncrement: 1
+  m_maxJitteredLocationOffsetPct: 0.9
+  m_locationChecksPerInt: 1
+  m_maxRandomClusterSize: 50
+  m_spawnFitnessAttenuator:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_areaMaskMode: 0
+  m_enableColliderCacheAtRuntime: 0
+  m_imageMask: {fileID: 0}
+  m_imageMaskInvert: 0
+  m_imageMaskNormalise: 0
+  m_imageMaskFlip: 0
+  m_imageMaskSmoothIterations: 3
+  m_noiseMaskSeed: 0
+  m_noiseMaskOctaves: 8
+  m_noiseMaskPersistence: 0.25
+  m_noiseMaskFrequency: 1
+  m_noiseMaskLacunarity: 1.5
+  m_noiseZoom: 10
+  m_noiseInvert: 0
+  m_spawnInterval: 5
+  m_triggerTags: Player
+  m_triggerRange: 130
+  m_spawnCollisionLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  m_spawnColliderLayer: 6
+  m_showGizmos: 1
+  m_showDebug: 0
+  m_baseTerrainStamped: 0
+  m_updateTimeAllowed: 0.033333335
+  m_spawnProgress: 0
+  m_spawnComplete: 1
+  m_spawnerBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_spawnPreviewDirty: 1
+  m_lastActiveTerrainSize: 1024
+  m_spawnRuleRegularToggleAllState: 1
+  m_spawnRuleBiomeMasksToggleAllState: 1
+  m_spawnRuleStampsToggleAllState: 1
+  m_drawPreview: 0
+  m_previewRuleIds: 
+  m_maxWorldHeight: 0
+  m_minWorldHeight: 0
+  m_showSeaLevelinStampPreview: 1
+  m_terrainGeneratorPanelUnfolded: 1
+  m_worldDesignerPreviewSettingsUnfolded: 1
+  m_rulePanelUnfolded: 1
+  m_createBaseTerrainUnfolded: 1
+  m_sizeAndResolutionUnfolded: 1
+  m_exportTerrainUnfolded: 0
+  m_worldBiomeMasksUnfolded: 0
+  m_createdfromBiomePreset: 0
+  m_createdFromGaiaManager: 0
+  m_showSeaLevelPlane: 0
+  m_showBoundingBox: 0
+  m_seaLevel: 8
+  m_worldDesignerPreviewTileX: 4
+  m_worldDesignerPreviewTileZ: 4
+  m_worldDesignerClearStampsWarningShown: 0
+  m_maskListBeingDrawn: []
+  m_collisionMaskListBeingDrawn: []
+  m_spawnRuleIndexBeingDrawn: 6
+  m_spawnRuleMaskIndexBeingDrawn: 0
+  m_textureResourcePrototypeBeingDrawn:
+    m_name: 
+    m_texture: {fileID: 0}
+    m_textureFileName: 
+    m_normal: {fileID: 0}
+    m_maskmap: {fileID: 0}
+    m_CTSSmoothnessMap: {fileID: 0}
+    m_CTSRoughnessMap: {fileID: 0}
+    m_CTSHeightMap: {fileID: 0}
+    m_CTSAmbientOcclusionMap: {fileID: 0}
+    m_normalFileName: 
+    m_sizeX: 8
+    m_sizeY: 8
+    m_offsetX: 0
+    m_offsetY: 0
+    m_metallic: 0
+    m_smoothness: 0
+    m_spawnCriteria: []
+    m_LayerGUID: 
+    m_normalScale: 1
+    m_diffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
+    m_diffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+    m_maskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
+    m_maskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
+    m_specularColor: {r: 0, g: 0, b: 0, a: 0}
+    m_channelRemapFoldedOut: 0
+  m_treeResourcePrototypeBeingDrawn:
+    m_name: 
+    m_desktopPrefab: {fileID: 0}
+    m_desktopPrefabFileName: 
+    m_mobilePrefabFileName: 
+    m_bendFactor: 0
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+    m_snapToTerrain: 1
+    m_customOffset: 0
+    m_minYOffset: -2
+    m_maxYOffset: 2
+    m_yOffsetBasedOn: 0
+    m_spawnScale: 1
+    m_minWidth: 0.75
+    m_maxWidth: 1.5
+    m_minHeight: 0.75
+    m_maxHeight: 1.5
+    m_widthRandomPercentage: 0.5
+    m_heightRandomPercentage: 0.5
+    m_lastUsedSpawnScale: 1
+    m_lastUsedMinWidth: 0.75
+    m_lastUsedMaxWidth: 1.5
+    m_lastUsedMinHeight: 0.75
+    m_lastUsedMaxHeight: 1.5
+    m_lastUsedWidthRandomPercentage: 0.5
+    m_lastUsedHeightRandomPercentage: 0.5
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+    m_useFlora: 0
+    m_floraLODs: []
+    m_pwDetailerSettingsObject: {fileID: 0}
+    m_detailerSettingsObjectAssetGUID: 
+    m_detailerSettingsObjectInstanceID: 0
+  m_terrainDetailPrototypeBeingDrawn:
+    m_name: 
+    m_renderMode: 2
+    m_useInstancing: 0
+    m_alignToGround: 0
+    m_density: 1
+    m_holeEdgePadding: 0
+    m_noiseSeed: 0
+    m_positionJitter: 0
+    m_targetCoverage: 1
+    m_useDensityScaling: 1
+    m_detailProtoype: {fileID: 0}
+    m_detailPrototypeFileName: 
+    m_detailTexture: {fileID: 0}
+    m_detailTextureFileName: 
+    m_minWidth: 1
+    m_maxWidth: 2
+    m_minHeight: 1
+    m_maxHeight: 2
+    m_noiseSpread: 0.3
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+    m_useFlora: 0
+    m_floraLODs: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_dnaFoldedOut: 0
+  m_gameObjectResourcePrototypeBeingDrawn:
+    m_name: 
+    m_instances: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_canSpawnAsTree: 0
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+  m_spawnExtensionPrototypeBeingDrawn:
+    m_name: 
+    m_instances: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+  m_stampDistributionPrototypeBeingDrawn:
+    m_featureType: Mesas
+    m_stampInfluence: 1
+    m_borderMaskStyle: 1
+    m_borderMaskType: Hills
+    m_operation: 13
+    m_stackedChance: 0
+    m_minWidth: 50
+    m_maxWidth: 50
+    m_tieWidthToStrength: 1
+    m_minHeight: 1
+    m_maxHeight: 5
+    m_minMixStrength: 0.05
+    m_maxMixStrength: 0.2
+    m_minMixMidPoint: 0.12216355
+    m_maxMixMidPoint: 0.40544617
+    m_tieHeightToStrength: 1
+    m_minYOffset: -1
+    m_maxYOffset: 1
+    m_invertChance: 0
+    m_inputHeightToStampHeightMapping:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.12010127
+        value: 0.16832307
+        inSlope: 5.8398595
+        outSlope: 5.8398595
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.22104855
+        value: 1.0125213
+        inSlope: 0.19449255
+        outSlope: 0.19449255
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.1663094
+      - serializedVersion: 3
+        time: 0.26091707
+        value: 0.66103673
+        inSlope: -5.6755342
+        outSlope: -5.6755342
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.44706693
+        value: 0.49741834
+        inSlope: -0.3964438
+        outSlope: -0.3964438
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.10590812
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_inputHeightToProbabilityMapping:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.49902165
+        value: 1.0065789
+        inSlope: -0.052033592
+        outSlope: -0.052033592
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.15599638
+      - serializedVersion: 3
+        time: 1
+        value: -0.0025135782
+        inSlope: -1.3837179
+        outSlope: -1.3837179
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.12685964
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_spawnProbability: 0.1532179
+  m_worldBiomeMaskPrototypeBeingDrawn:
+    m_name: 
+    m_biomePreset: {fileID: 0}
+  m_probePrototypeBeingDrawn:
+    m_name: 
+    m_probeType: 0
+    m_reflectionProbeData:
+      reflectionProbeMode: 1
+      reflectionProbeRefresh: 0
+      reflectionCubemapCompression: 2
+      reflectionProbeTimeSlicingMode: 1
+      reflectionProbesPerRow: 5
+      reflectionProbeOffset: 1.8
+      reflectionProbeClipPlaneDistance: 1000
+      reflectionProbeBlendDistance: 5
+      reflectionprobeCullingMask:
+        serializedVersion: 2
+        m_Bits: 1
+      reflectionProbeShadowDistance: 100
+      reflectionProbeResolution: 2
+      lightProbesPerRow: 50
+      lightProbeSpawnRadius: 25
+      seaLevel: 50
+      filterMode: 1
+  m_terrainModifierStampBeingDrawn:
+    m_name: 
+    m_y: 50
+    m_height: 10
+    m_absoluteHeightValue: 0
+    m_rotation: 0
+    m_blendStrength: 0.5
+    m_operation: 0
+    m_heightTransformCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_contrastFeatureSize: 10
+    m_contrastStrength: 2
+    m_terraceCount: 100
+    m_terraceJitterCount: 0.5
+    m_terraceBevelAmountInterior: 0
+    m_sharpenRidgesMixStrength: 0.5
+    m_sharpenRidgesIterations: 16
+    m_powerOf: 0
+    m_smoothVerticality: 0
+    m_smoothBlurRadius: 10
+    m_stamperInputImageMask:
+      m_active: 1
+      m_invert: 0
+      m_hasErrors: 0
+      m_influence: 0
+      m_operation: 0
+      m_blendMode: 0
+      m_imageMaskLocation: 0
+      m_strength: 1
+      m_seaLevel: 0
+      m_maxWorldHeight: 0
+      m_minWorldHeight: 0
+      m_xOffSet: 0
+      m_zOffSet: 0
+      m_xOffSetScalar: 0
+      m_zOffSetScalar: 0
+      m_xScale: 1
+      m_zScale: 1
+      m_rotationDegrees: 0
+      m_tiling: 0
+      m_imageMaskSpace: 0
+      m_imageMaskTextureGUID: 
+      m_imageMaskFilterMode: 0
+      m_imageMaskColorSelectionColor: {r: 1, g: 1, b: 1, a: 1}
+      m_imageMaskColorSelectionAccuracy: 0.5
+      m_distanceMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_strengthTransformCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_heightMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_heightMaskType: 1
+      m_heightMaskUnit: 1
+      m_relativeHeightMin: 25
+      m_relativeHeightMax: 75
+      m_absoluteHeightMin: 50
+      m_absoluteHeightMax: 150
+      m_seaLevelRelativeHeightMin: -109876.55
+      m_seaLevelRelativeHeightMax: 109876.55
+      tree1active: 0
+      tree2active: 0
+      m_slopeMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_slopeMin: 0
+      m_slopeMax: 0.1
+      m_distanceMaskAxes: 3
+      m_gaiaNoiseSettings:
+        m_translation: {x: 0, y: 0, z: 0}
+        m_rotation: {x: 0, y: 0, z: 0}
+        m_scale: {x: 10, y: 1, z: 10}
+        m_noiseTypeName: Perlin
+        m_noiseTypeParams: 
+        m_fractalTypeName: Fbm
+        m_fractalTypeParams: 
+        m_warpEnabled: 0
+        m_warpIterations: 0
+        m_warpStrength: 0
+        m_warpOffset: {x: 0, y: 0, z: 0, w: 0}
+      m_noiseSettings: {fileID: 0}
+      m_noiseToolSettings:
+        worldHeightRemap: {x: 0, y: 0}
+        coordSpace: 0
+        noiseAssetGUID: 
+      m_ShowNoiseTransformSettings: 0
+      m_ShowNoisePreviewTexture: 1
+      m_noisePreviewTextureLocked: 0
+      m_ShowNoiseTypeSettings: 0
+      m_scaleNoiseToTerrainSize: 0
+      m_distanceMaskSquareRoundness: 0.25
+      m_collisionMaskExpanded: 1
+      m_collisionMasks: []
+      m_erosionMaskOutput: 0
+      m_erosionSimScale: 9
+      m_erosionHydroTimeDelta: 0.05
+      m_erosionHydroIterations: 15
+      m_erosionThermalTimeDelta: 0.01
+      m_erosionThermalIterations: 80
+      m_erosionThermalReposeAngle: 80
+      m_erosionPrecipRate: 0.5
+      m_erosionEvaporationRate: 0.5
+      m_erosionFlowRate: 0.5
+      m_erosionSedimentCapacity: 0.5
+      m_erosionSedimentDepositRate: 0.8
+      m_erosionSedimentDissolveRate: 0.5
+      m_erosionRiverBankDepositRate: 7
+      m_erosionRiverBankDissolveRate: 5
+      m_erosionRiverBedDepositRate: 5
+      m_erosionRiverBedDissolveRate: 5
+      m_erosionShowAdvancedUI: 0
+      m_erosionShowThermalUI: 0
+      m_erosionShowWaterUI: 0
+      m_erosionShowSedimentUI: 0
+      m_erosionShowRiverBankUI: 0
+      m_smoothVerticality: 0
+      m_smoothBlurRadius: 1
+      m_textureMaskSpawnRuleGUID: 
+      m_concavity: 1
+      m_concavityFeatureSize: 10
+      m_foldedOut: 1
+      m_selectedWorldBiomeMaskGUID: 
+      m_growAndShrinkValue: 0
+      m_globalSpawnerMaskStackRT: {fileID: 0}
+    m_mixMidPoint: 0.5
+    m_mixHeightStrength: 0.5
+  m_useExistingTerrainForWorldMapExport: 0
+  m_stampOperationsFoldedOut: 0
+  m_worldSizeAdvancedUnfolded: 0
+  m_worldTileSize: 2
+  m_worldDesignerBiomePresetSelection: 1
+  m_worldDesignerPreviewMode: 0
+  m_BiomeSpawnersToCreate:
+  - m_autoAssignPrototypes: 1
+    m_spawnerSettings: {fileID: 11400000, guid: f402506cf81eade4db78bf3a9424c0c9, type: 2}
+    m_isActiveInStamper: 1
+    m_isActiveInBiome: 1
+  - m_autoAssignPrototypes: 0
+    m_spawnerSettings: {fileID: 11400000, guid: 42783e224555be04a8da9de392846bec, type: 2}
+    m_isActiveInStamper: 0
+    m_isActiveInBiome: 1
+  - m_autoAssignPrototypes: 0
+    m_spawnerSettings: {fileID: 11400000, guid: b70ff2238fa761d45972eec9c6f1d5aa, type: 2}
+    m_isActiveInStamper: 0
+    m_isActiveInBiome: 1
+  - m_autoAssignPrototypes: 0
+    m_spawnerSettings: {fileID: 11400000, guid: b6cfb189c3611fb40b0a167081f1ab97, type: 2}
+    m_isActiveInStamper: 0
+    m_isActiveInBiome: 1
+  - m_autoAssignPrototypes: 0
+    m_spawnerSettings: {fileID: 11400000, guid: 7722acf9c4dbfb14cabee545865ad0ab, type: 2}
+    m_isActiveInStamper: 0
+    m_isActiveInBiome: 1
+  - m_autoAssignPrototypes: 0
+    m_spawnerSettings: {fileID: 11400000, guid: f1ea5361521a58e4bbfb6d7264e82b1f, type: 2}
+    m_isActiveInStamper: 0
+    m_isActiveInBiome: 1
+  - m_autoAssignPrototypes: 0
+    m_spawnerSettings: {fileID: 11400000, guid: c451d9a08124d3f4f99001825979727f, type: 2}
+    m_isActiveInStamper: 0
+    m_isActiveInBiome: 1
+  - m_autoAssignPrototypes: 0
+    m_spawnerSettings: {fileID: 11400000, guid: a4643a9406d287e45a9505f813997086, type: 2}
+    m_isActiveInStamper: 0
+    m_isActiveInBiome: 0
+  - m_autoAssignPrototypes: 0
+    m_spawnerSettings: {fileID: 11400000, guid: b0c2bc14ce5ea6d4aab2bc8d3b1b874e, type: 2}
+    m_isActiveInStamper: 0
+    m_isActiveInBiome: 1
+  - m_autoAssignPrototypes: 0
+    m_spawnerSettings: {fileID: 11400000, guid: 37acf57db6e69424fb7cb8b5727c8858, type: 2}
+    m_isActiveInStamper: 0
+    m_isActiveInBiome: 1
+  - m_autoAssignPrototypes: 0
+    m_spawnerSettings: {fileID: 11400000, guid: 534fd92567de8714c91a6ff6438f6e78, type: 2}
+    m_isActiveInStamper: 0
+    m_isActiveInBiome: 1
+  m_lastStampSpawnWorldSize: {x: 4608, y: 512, z: 4608}
+  m_lastExportedHeightMapResolution: 1025
+  m_lastExportedWorldSize: 4608
+  m_qualityPresetAdvancedUnfolded: 0
+  m_biomeMaskPanelUnfolded: 0
+  m_spawnStampsPanelUnfolded: 1
+  m_ExportRunning: 0
+  m_dropAreaResource: 0
+  m_highlightLoadingSettings: 0
+  m_highlightLoadingSettingsStartedTimeStamp: 0
+  m_foldoutSpawnerSettings: 0
+  m_worldDesignerUserBounds:
+    m_Center: {x: 0, y: 256, z: 0}
+    m_Extent: {x: 256, y: 256, z: 256}
+  m_worldDesignerSampleObjectPos1: {x: -20, y: 19.480804, z: 0}
+  m_worldDesignerSampleObjectPos2: {x: 0, y: 19.333832, z: 0}
+  m_worldDesignerSampleObjectPos3: {x: 20, y: 19.17402, z: 0}
+  m_drawWorldDesignerSampleObjects: 1
+  m_drawWorldDesignerHandles: 0
+  m_drawWorldDesignerRulers: 1
+  m_drawWorldDesignerDensityViz: 1
+  m_autoStampDensityVisualizationTimeStamp: 1685719682908
+--- !u!114 &3543086181860722655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181860722653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0658d731d3f1d5e4496b3a48cbac80e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_loadingBoundsRegular:
+    m_Center:
+      x: 0
+      y: 0
+      z: 0
+    m_Extents:
+      x: 0
+      y: 0
+      z: 0
+  m_loadingBoundsImpostor:
+    m_Center:
+      x: 0
+      y: 0
+      z: 0
+    m_Extents:
+      x: 0
+      y: 0
+      z: 0
+  m_loadingBoundsCollider:
+    m_Center:
+      x: 0
+      y: 0
+      z: 0
+    m_Extents:
+      x: 0
+      y: 0
+      z: 0
+  m_loadMode: 1
+  m_isSelected: 0
+  m_beingDragged: 0
+  m_minRefreshDistance: 100
+  m_maxRefreshDistance: 2000
+  m_minRefreshMS: 100
+  m_maxRefreshMS: 5000
+  m_followTransform: 1
+--- !u!1 &3543086181966608988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3543086181966608989}
+  - component: {fileID: 3543086181966608990}
+  m_Layer: 0
+  m_Name: Session Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3543086181966608989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181966608988}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3543086181193848578}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3543086181966608990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086181966608988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dd968c7c0aaf894daa18afd9eac9965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_session: {fileID: 11400000, guid: ef4caf2e147affe4eaaa32157cb5ebc2, type: 2}
+  m_focusSceneView: 1
+  m_useRandomSeed: 1
+  m_randomSeed: 0
+  m_genShowRandomGenerator: 0
+  m_genShowTerrainHelper: 0
+  m_genBorderStyle: 2
+  m_genGridSize: 3
+  m_genNumStampsToGenerate: 10
+  m_genScaleWidth: 15
+  m_genScaleHeight: 3.75
+  m_genChanceOfHills: 0.7
+  m_genChanceOfIslands: 0
+  m_genChanceOfLakes: 0
+  m_genChanceOfMesas: 0.1
+  m_genChanceOfMountains: 0.1
+  m_genChanceOfPlains: 0
+  m_genChanceOfRivers: 0.1
+  m_genChanceOfValleys: 0
+  m_genChanceOfVillages: 0
+  m_genChanceOfWaterfalls: 0
+  m_bakedMaskCache: {fileID: 0}
+  m_lastUsedTerrainExportSettings: {fileID: 0}
+  m_copiedImageMask:
+    m_active: 1
+    m_invert: 0
+    m_hasErrors: 0
+    m_influence: 0
+    m_operation: 0
+    m_blendMode: 0
+    m_imageMaskLocation: 0
+    m_strength: 1
+    m_seaLevel: 0
+    m_maxWorldHeight: 0
+    m_minWorldHeight: 0
+    m_xOffSet: 0
+    m_zOffSet: 0
+    m_xOffSetScalar: 0
+    m_zOffSetScalar: 0
+    m_xScale: 1
+    m_zScale: 1
+    m_rotationDegrees: 0
+    m_tiling: 0
+    m_imageMaskSpace: 0
+    m_imageMaskTextureGUID: 
+    m_imageMaskFilterMode: 0
+    m_imageMaskColorSelectionColor: {r: 1, g: 1, b: 1, a: 1}
+    m_imageMaskColorSelectionAccuracy: 0.5
+    m_distanceMaskCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_strengthTransformCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_heightMaskCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_heightMaskType: 1
+    m_heightMaskUnit: 1
+    m_relativeHeightMin: 25
+    m_relativeHeightMax: 75
+    m_absoluteHeightMin: 50
+    m_absoluteHeightMax: 150
+    m_seaLevelRelativeHeightMin: -109876.55
+    m_seaLevelRelativeHeightMax: 109876.55
+    tree1active: 0
+    tree2active: 0
+    m_slopeMaskCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_slopeMin: 0
+    m_slopeMax: 0.1
+    m_distanceMaskAxes: 3
+    m_gaiaNoiseSettings:
+      m_translation: {x: 0, y: 0, z: 0}
+      m_rotation: {x: 0, y: 0, z: 0}
+      m_scale: {x: 10, y: 1, z: 10}
+      m_noiseTypeName: Perlin
+      m_noiseTypeParams: 
+      m_fractalTypeName: Fbm
+      m_fractalTypeParams: 
+      m_warpEnabled: 0
+      m_warpIterations: 0
+      m_warpStrength: 0
+      m_warpOffset: {x: 0, y: 0, z: 0, w: 0}
+    m_noiseSettings: {fileID: 0}
+    m_noiseToolSettings:
+      worldHeightRemap: {x: 0, y: 0}
+      coordSpace: 0
+      noiseAssetGUID: 
+    m_ShowNoiseTransformSettings: 0
+    m_ShowNoisePreviewTexture: 1
+    m_noisePreviewTextureLocked: 0
+    m_ShowNoiseTypeSettings: 0
+    m_scaleNoiseToTerrainSize: 0
+    m_distanceMaskSquareRoundness: 0.25
+    m_collisionMaskExpanded: 1
+    m_collisionMasks: []
+    m_erosionMaskOutput: 0
+    m_erosionSimScale: 9
+    m_erosionHydroTimeDelta: 0.05
+    m_erosionHydroIterations: 15
+    m_erosionThermalTimeDelta: 0.01
+    m_erosionThermalIterations: 80
+    m_erosionThermalReposeAngle: 80
+    m_erosionPrecipRate: 0.5
+    m_erosionEvaporationRate: 0.5
+    m_erosionFlowRate: 0.5
+    m_erosionSedimentCapacity: 0.5
+    m_erosionSedimentDepositRate: 0.8
+    m_erosionSedimentDissolveRate: 0.5
+    m_erosionRiverBankDepositRate: 7
+    m_erosionRiverBankDissolveRate: 5
+    m_erosionRiverBedDepositRate: 5
+    m_erosionRiverBedDissolveRate: 5
+    m_erosionShowAdvancedUI: 0
+    m_erosionShowThermalUI: 0
+    m_erosionShowWaterUI: 0
+    m_erosionShowSedimentUI: 0
+    m_erosionShowRiverBankUI: 0
+    m_smoothVerticality: 0
+    m_smoothBlurRadius: 1
+    m_textureMaskSpawnRuleGUID: 
+    m_concavity: 1
+    m_concavityFeatureSize: 10
+    m_foldedOut: 1
+    m_selectedWorldBiomeMaskGUID: 
+    m_growAndShrinkValue: 0
+    m_globalSpawnerMaskStackRT: {fileID: 0}
+  m_copiedSpawnRule:
+    m_name: 
+    m_guid: f21be88e-287c-429b-ad62-4fd7978813b4
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 0
+    m_resourceIdx: 0
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  m_copiedSpawnRuleSpawner: {fileID: 0}
+  m_waitForSessionContinueAfterStamping: 0
+  m_massStamperSettingsList: []
+  m_massStamperSettingsIndex: 2147483647
+  m_showSceneViewPanel: 0
+  m_showTerrainOpsPanel: 0
+  m_terrainNamesFlaggedForRegeneration: []
+  m_terrainNamesFlaggedForRegenerationDeactivation: []
+  m_selectAllOperations: 1
+  m_waitForSpawningDuringTerrainCreation: 0
+  m_worldCreationRunning: 0
+--- !u!1 &3543086182160190439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3543086182160190456}
+  - component: {fileID: 3543086182160190458}
+  - component: {fileID: 3543086182160190457}
+  m_Layer: 0
+  m_Name: Synty Texture Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3543086182160190456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086182160190439}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 6.492584, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3543086182593245908}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3543086182160190458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086182160190439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df16ee49ef1a2246ba1007a065388a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings: {fileID: 0}
+  worldCreationSettings: {fileID: 0}
+  baseTerrainsettings: {fileID: 0}
+  m_worldMapStamperSettings: []
+  m_loadTerrainMode: 1
+  m_impostorLoadingRange: 0
+  m_connectedCTSProfileGUID: 
+  m_spawnerID: 12954ce2-cfef-4a07-8323-09bf2caf8ab8
+  m_mode: 0
+  m_seed: 691
+  m_spawnerShape: 0
+  m_spawnRuleSelector: 2
+  m_spawnLocationAlgorithm: 0
+  m_spawnLocationCheckType: 0
+  m_locationIncrement: 1
+  m_maxJitteredLocationOffsetPct: 0.9
+  m_locationChecksPerInt: 1
+  m_maxRandomClusterSize: 50
+  m_spawnFitnessAttenuator:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_areaMaskMode: 0
+  m_enableColliderCacheAtRuntime: 0
+  m_imageMask: {fileID: 0}
+  m_imageMaskInvert: 0
+  m_imageMaskNormalise: 0
+  m_imageMaskFlip: 0
+  m_imageMaskSmoothIterations: 3
+  m_noiseMaskSeed: 0
+  m_noiseMaskOctaves: 8
+  m_noiseMaskPersistence: 0.25
+  m_noiseMaskFrequency: 1
+  m_noiseMaskLacunarity: 1.5
+  m_noiseZoom: 10
+  m_noiseInvert: 0
+  m_spawnInterval: 5
+  m_triggerTags: Player
+  m_triggerRange: 130
+  m_spawnCollisionLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  m_spawnColliderLayer: 6
+  m_showGizmos: 1
+  m_showDebug: 0
+  m_baseTerrainStamped: 0
+  m_updateTimeAllowed: 0.033333335
+  m_spawnProgress: 0
+  m_spawnComplete: 1
+  m_spawnerBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_spawnPreviewDirty: 1
+  m_lastActiveTerrainSize: 512
+  m_spawnRuleRegularToggleAllState: 1
+  m_spawnRuleBiomeMasksToggleAllState: 1
+  m_spawnRuleStampsToggleAllState: 1
+  m_drawPreview: 0
+  m_previewRuleIds: 
+  m_maxWorldHeight: 104.407845
+  m_minWorldHeight: 0
+  m_showSeaLevelinStampPreview: 1
+  m_terrainGeneratorPanelUnfolded: 1
+  m_worldDesignerPreviewSettingsUnfolded: 0
+  m_rulePanelUnfolded: 1
+  m_createBaseTerrainUnfolded: 0
+  m_sizeAndResolutionUnfolded: 1
+  m_exportTerrainUnfolded: 0
+  m_worldBiomeMasksUnfolded: 0
+  m_createdfromBiomePreset: 0
+  m_createdFromGaiaManager: 0
+  m_showSeaLevelPlane: 0
+  m_showBoundingBox: 1
+  m_seaLevel: 8
+  m_worldDesignerPreviewTileX: -99
+  m_worldDesignerPreviewTileZ: -99
+  m_worldDesignerClearStampsWarningShown: 0
+  m_maskListBeingDrawn:
+  - m_active: 1
+    m_invert: 0
+    m_hasErrors: 0
+    m_influence: 0
+    m_operation: 4
+    m_blendMode: 0
+    m_imageMaskLocation: 1
+    m_strength: 1
+    m_seaLevel: 8
+    m_maxWorldHeight: 131.1895
+    m_minWorldHeight: 0
+    m_xOffSet: 0
+    m_zOffSet: 0
+    m_xOffSetScalar: 0
+    m_zOffSetScalar: 0
+    m_xScale: 1
+    m_zScale: 1
+    m_rotationDegrees: 0
+    m_tiling: 0
+    m_imageMaskSpace: 0
+    m_imageMaskTextureGUID: 
+    m_imageMaskFilterMode: 0
+    m_imageMaskColorSelectionColor: {r: 1, g: 1, b: 1, a: 1}
+    m_imageMaskColorSelectionAccuracy: 0.5
+    m_distanceMaskCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_strengthTransformCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_heightMaskCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_heightMaskType: 1
+    m_heightMaskUnit: 0
+    m_relativeHeightMin: -10
+    m_relativeHeightMax: 10
+    m_absoluteHeightMin: 2.5
+    m_absoluteHeightMax: 22.5
+    m_seaLevelRelativeHeightMin: -109876.55
+    m_seaLevelRelativeHeightMax: 109876.55
+    tree1active: 0
+    tree2active: 0
+    m_slopeMaskCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_slopeMin: 0
+    m_slopeMax: 0.1
+    m_distanceMaskAxes: 0
+    m_gaiaNoiseSettings:
+      m_translation: {x: 0, y: 0, z: 0}
+      m_rotation: {x: 0, y: 0, z: 0}
+      m_scale: {x: 75.375916, y: 1, z: 75.375916}
+      m_noiseTypeName: Perlin
+      m_noiseTypeParams: 
+      m_fractalTypeName: Fbm
+      m_fractalTypeParams: '{"warpOffsets":{"x":2.5,"y":1.399999976158142,"z":3.200000047683716,"w":2.700000047683716},"octavesMinMax":{"x":0.0,"y":16.0},"amplitudeMinMax":{"x":0.0,"y":1.0},"frequencyMinMax":{"x":0.0,"y":2.0},"lacunarityMinMax":{"x":0.0,"y":4.0},"persistenceMinMax":{"x":0.0,"y":1.0},"warpIterationsMinMax":{"x":0.0,"y":8.0},"warpStrengthMinMax":{"x":-2.0,"y":2.0},"octaves":4.059999942779541,"amplitude":0.5149999856948853,"frequency":0.6069999933242798,"persistence":0.5149999856948853,"lacunarity":2.0,"warpIterations":1.0,"warpStrength":0.5,"warpEnabled":false,"warpExpanded":true}'
+      m_warpEnabled: 0
+      m_warpIterations: 0
+      m_warpStrength: 0
+      m_warpOffset: {x: 0, y: 0, z: 0, w: 0}
+    m_noiseSettings: {fileID: 0}
+    m_noiseToolSettings:
+      worldHeightRemap: {x: 0, y: 0}
+      coordSpace: 0
+      noiseAssetGUID: 
+    m_ShowNoiseTransformSettings: 0
+    m_ShowNoisePreviewTexture: 1
+    m_noisePreviewTextureLocked: 1
+    m_ShowNoiseTypeSettings: 1
+    m_scaleNoiseToTerrainSize: 0
+    m_distanceMaskSquareRoundness: 0.25
+    m_collisionMaskExpanded: 1
+    m_collisionMasks: []
+    m_erosionMaskOutput: 0
+    m_erosionSimScale: 9
+    m_erosionHydroTimeDelta: 0.05
+    m_erosionHydroIterations: 15
+    m_erosionThermalTimeDelta: 0.01
+    m_erosionThermalIterations: 80
+    m_erosionThermalReposeAngle: 80
+    m_erosionPrecipRate: 0.5
+    m_erosionEvaporationRate: 0.5
+    m_erosionFlowRate: 0.5
+    m_erosionSedimentCapacity: 0.5
+    m_erosionSedimentDepositRate: 0.8
+    m_erosionSedimentDissolveRate: 0.5
+    m_erosionRiverBankDepositRate: 7
+    m_erosionRiverBankDissolveRate: 5
+    m_erosionRiverBedDepositRate: 5
+    m_erosionRiverBedDissolveRate: 5
+    m_erosionShowAdvancedUI: 0
+    m_erosionShowThermalUI: 0
+    m_erosionShowWaterUI: 0
+    m_erosionShowSedimentUI: 0
+    m_erosionShowRiverBankUI: 0
+    m_smoothVerticality: 0
+    m_smoothBlurRadius: 1
+    m_textureMaskSpawnRuleGUID: 
+    m_concavity: 1
+    m_concavityFeatureSize: 10
+    m_foldedOut: 1
+    m_selectedWorldBiomeMaskGUID: 
+    m_growAndShrinkValue: 0
+    m_globalSpawnerMaskStackRT: {fileID: 0}
+  - m_active: 1
+    m_invert: 0
+    m_hasErrors: 0
+    m_influence: 0
+    m_operation: 2
+    m_blendMode: 0
+    m_imageMaskLocation: 1
+    m_strength: 1
+    m_seaLevel: 8
+    m_maxWorldHeight: 131.1895
+    m_minWorldHeight: 0
+    m_xOffSet: 0
+    m_zOffSet: 0
+    m_xOffSetScalar: 0
+    m_zOffSetScalar: 0
+    m_xScale: 1
+    m_zScale: 1
+    m_rotationDegrees: 0
+    m_tiling: 0
+    m_imageMaskSpace: 0
+    m_imageMaskTextureGUID: 
+    m_imageMaskFilterMode: 0
+    m_imageMaskColorSelectionColor: {r: 1, g: 1, b: 1, a: 1}
+    m_imageMaskColorSelectionAccuracy: 0.5
+    m_distanceMaskCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_strengthTransformCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_heightMaskCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_heightMaskType: 1
+    m_heightMaskUnit: 1
+    m_relativeHeightMin: -4.98
+    m_relativeHeightMax: 10.02
+    m_absoluteHeightMin: 1.1180491
+    m_absoluteHeightMax: 16.11805
+    m_seaLevelRelativeHeightMin: -109876.55
+    m_seaLevelRelativeHeightMax: 109876.55
+    tree1active: 0
+    tree2active: 0
+    m_slopeMaskCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_slopeMin: 0
+    m_slopeMax: 0.1
+    m_distanceMaskAxes: 0
+    m_gaiaNoiseSettings:
+      m_translation: {x: 0, y: 0, z: 0}
+      m_rotation: {x: 0, y: 0, z: 0}
+      m_scale: {x: 10, y: 1, z: 10}
+      m_noiseTypeName: Perlin
+      m_noiseTypeParams: 
+      m_fractalTypeName: Fbm
+      m_fractalTypeParams: 
+      m_warpEnabled: 0
+      m_warpIterations: 0
+      m_warpStrength: 0
+      m_warpOffset: {x: 0, y: 0, z: 0, w: 0}
+    m_noiseSettings: {fileID: 0}
+    m_noiseToolSettings:
+      worldHeightRemap: {x: 0, y: 0}
+      coordSpace: 0
+      noiseAssetGUID: 
+    m_ShowNoiseTransformSettings: 0
+    m_ShowNoisePreviewTexture: 1
+    m_noisePreviewTextureLocked: 0
+    m_ShowNoiseTypeSettings: 0
+    m_scaleNoiseToTerrainSize: 0
+    m_distanceMaskSquareRoundness: 0.25
+    m_collisionMaskExpanded: 1
+    m_collisionMasks: []
+    m_erosionMaskOutput: 0
+    m_erosionSimScale: 9
+    m_erosionHydroTimeDelta: 0.05
+    m_erosionHydroIterations: 15
+    m_erosionThermalTimeDelta: 0.01
+    m_erosionThermalIterations: 80
+    m_erosionThermalReposeAngle: 80
+    m_erosionPrecipRate: 0.5
+    m_erosionEvaporationRate: 0.5
+    m_erosionFlowRate: 0.5
+    m_erosionSedimentCapacity: 0.5
+    m_erosionSedimentDepositRate: 0.8
+    m_erosionSedimentDissolveRate: 0.5
+    m_erosionRiverBankDepositRate: 7
+    m_erosionRiverBankDissolveRate: 5
+    m_erosionRiverBedDepositRate: 5
+    m_erosionRiverBedDissolveRate: 5
+    m_erosionShowAdvancedUI: 0
+    m_erosionShowThermalUI: 0
+    m_erosionShowWaterUI: 0
+    m_erosionShowSedimentUI: 0
+    m_erosionShowRiverBankUI: 0
+    m_smoothVerticality: 0
+    m_smoothBlurRadius: 1
+    m_textureMaskSpawnRuleGUID: 
+    m_concavity: 1
+    m_concavityFeatureSize: 10
+    m_foldedOut: 1
+    m_selectedWorldBiomeMaskGUID: 
+    m_growAndShrinkValue: 0
+    m_globalSpawnerMaskStackRT: {fileID: 0}
+  m_collisionMaskListBeingDrawn: []
+  m_spawnRuleIndexBeingDrawn: 3
+  m_spawnRuleMaskIndexBeingDrawn: 1
+  m_textureResourcePrototypeBeingDrawn:
+    m_name: 
+    m_texture: {fileID: 0}
+    m_textureFileName: 
+    m_normal: {fileID: 0}
+    m_maskmap: {fileID: 0}
+    m_CTSSmoothnessMap: {fileID: 0}
+    m_CTSRoughnessMap: {fileID: 0}
+    m_CTSHeightMap: {fileID: 0}
+    m_CTSAmbientOcclusionMap: {fileID: 0}
+    m_normalFileName: 
+    m_sizeX: 8
+    m_sizeY: 8
+    m_offsetX: 0
+    m_offsetY: 0
+    m_metallic: 0
+    m_smoothness: 0
+    m_spawnCriteria: []
+    m_LayerGUID: 
+    m_normalScale: 1
+    m_diffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
+    m_diffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+    m_maskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
+    m_maskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
+    m_specularColor: {r: 0, g: 0, b: 0, a: 0}
+    m_channelRemapFoldedOut: 0
+  m_treeResourcePrototypeBeingDrawn:
+    m_name: 
+    m_desktopPrefab: {fileID: 0}
+    m_desktopPrefabFileName: 
+    m_mobilePrefabFileName: 
+    m_bendFactor: 0
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+    m_snapToTerrain: 1
+    m_customOffset: 0
+    m_minYOffset: -2
+    m_maxYOffset: 2
+    m_yOffsetBasedOn: 0
+    m_spawnScale: 1
+    m_minWidth: 0.75
+    m_maxWidth: 1.5
+    m_minHeight: 0.75
+    m_maxHeight: 1.5
+    m_widthRandomPercentage: 0.5
+    m_heightRandomPercentage: 0.5
+    m_lastUsedSpawnScale: 1
+    m_lastUsedMinWidth: 0.75
+    m_lastUsedMaxWidth: 1.5
+    m_lastUsedMinHeight: 0.75
+    m_lastUsedMaxHeight: 1.5
+    m_lastUsedWidthRandomPercentage: 0.5
+    m_lastUsedHeightRandomPercentage: 0.5
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+    m_useFlora: 0
+    m_floraLODs: []
+    m_pwDetailerSettingsObject: {fileID: 0}
+    m_detailerSettingsObjectAssetGUID: 
+    m_detailerSettingsObjectInstanceID: 0
+  m_terrainDetailPrototypeBeingDrawn:
+    m_name: 
+    m_renderMode: 2
+    m_useInstancing: 0
+    m_alignToGround: 0
+    m_density: 1
+    m_holeEdgePadding: 0
+    m_noiseSeed: 0
+    m_positionJitter: 0
+    m_targetCoverage: 1
+    m_useDensityScaling: 1
+    m_detailProtoype: {fileID: 0}
+    m_detailPrototypeFileName: 
+    m_detailTexture: {fileID: 0}
+    m_detailTextureFileName: 
+    m_minWidth: 1
+    m_maxWidth: 2
+    m_minHeight: 1
+    m_maxHeight: 2
+    m_noiseSpread: 0.3
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+    m_useFlora: 0
+    m_floraLODs: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_dnaFoldedOut: 0
+  m_gameObjectResourcePrototypeBeingDrawn:
+    m_name: 
+    m_instances: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_canSpawnAsTree: 0
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+  m_spawnExtensionPrototypeBeingDrawn:
+    m_name: 
+    m_instances: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+  m_stampDistributionPrototypeBeingDrawn:
+    m_featureType: 
+    m_stampInfluence: 1
+    m_borderMaskStyle: 1
+    m_borderMaskType: Masks
+    m_operation: 13
+    m_stackedChance: 0
+    m_minWidth: 50
+    m_maxWidth: 200
+    m_tieWidthToStrength: 1
+    m_minHeight: 1
+    m_maxHeight: 5
+    m_minMixStrength: 0.1
+    m_maxMixStrength: 0.25
+    m_minMixMidPoint: 0.25
+    m_maxMixMidPoint: 0.75
+    m_tieHeightToStrength: 1
+    m_minYOffset: -1
+    m_maxYOffset: 1
+    m_invertChance: 0
+    m_inputHeightToStampHeightMapping:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_inputHeightToProbabilityMapping:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_spawnProbability: 0
+  m_worldBiomeMaskPrototypeBeingDrawn:
+    m_name: 
+    m_biomePreset: {fileID: 0}
+  m_probePrototypeBeingDrawn:
+    m_name: 
+    m_probeType: 0
+    m_reflectionProbeData:
+      reflectionProbeMode: 1
+      reflectionProbeRefresh: 0
+      reflectionCubemapCompression: 2
+      reflectionProbeTimeSlicingMode: 1
+      reflectionProbesPerRow: 5
+      reflectionProbeOffset: 1.8
+      reflectionProbeClipPlaneDistance: 1000
+      reflectionProbeBlendDistance: 5
+      reflectionprobeCullingMask:
+        serializedVersion: 2
+        m_Bits: 1
+      reflectionProbeShadowDistance: 100
+      reflectionProbeResolution: 2
+      lightProbesPerRow: 50
+      lightProbeSpawnRadius: 25
+      seaLevel: 50
+      filterMode: 1
+  m_terrainModifierStampBeingDrawn:
+    m_name: 
+    m_y: 50
+    m_height: 10
+    m_absoluteHeightValue: 0
+    m_rotation: 0
+    m_blendStrength: 0.5
+    m_operation: 0
+    m_heightTransformCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_contrastFeatureSize: 10
+    m_contrastStrength: 2
+    m_terraceCount: 100
+    m_terraceJitterCount: 0.5
+    m_terraceBevelAmountInterior: 0
+    m_sharpenRidgesMixStrength: 0.5
+    m_sharpenRidgesIterations: 16
+    m_powerOf: 0
+    m_smoothVerticality: 0
+    m_smoothBlurRadius: 10
+    m_stamperInputImageMask:
+      m_active: 1
+      m_invert: 0
+      m_hasErrors: 0
+      m_influence: 0
+      m_operation: 0
+      m_blendMode: 0
+      m_imageMaskLocation: 0
+      m_strength: 1
+      m_seaLevel: 0
+      m_maxWorldHeight: 0
+      m_minWorldHeight: 0
+      m_xOffSet: 0
+      m_zOffSet: 0
+      m_xOffSetScalar: 0
+      m_zOffSetScalar: 0
+      m_xScale: 1
+      m_zScale: 1
+      m_rotationDegrees: 0
+      m_tiling: 0
+      m_imageMaskSpace: 0
+      m_imageMaskTextureGUID: 
+      m_imageMaskFilterMode: 0
+      m_imageMaskColorSelectionColor: {r: 1, g: 1, b: 1, a: 1}
+      m_imageMaskColorSelectionAccuracy: 0.5
+      m_distanceMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_strengthTransformCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_heightMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_heightMaskType: 1
+      m_heightMaskUnit: 1
+      m_relativeHeightMin: 25
+      m_relativeHeightMax: 75
+      m_absoluteHeightMin: 50
+      m_absoluteHeightMax: 150
+      m_seaLevelRelativeHeightMin: -109876.55
+      m_seaLevelRelativeHeightMax: 109876.55
+      tree1active: 0
+      tree2active: 0
+      m_slopeMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_slopeMin: 0
+      m_slopeMax: 0.1
+      m_distanceMaskAxes: 3
+      m_gaiaNoiseSettings:
+        m_translation: {x: 0, y: 0, z: 0}
+        m_rotation: {x: 0, y: 0, z: 0}
+        m_scale: {x: 10, y: 1, z: 10}
+        m_noiseTypeName: Perlin
+        m_noiseTypeParams: 
+        m_fractalTypeName: Fbm
+        m_fractalTypeParams: 
+        m_warpEnabled: 0
+        m_warpIterations: 0
+        m_warpStrength: 0
+        m_warpOffset: {x: 0, y: 0, z: 0, w: 0}
+      m_noiseSettings: {fileID: 0}
+      m_noiseToolSettings:
+        worldHeightRemap: {x: 0, y: 0}
+        coordSpace: 0
+        noiseAssetGUID: 
+      m_ShowNoiseTransformSettings: 0
+      m_ShowNoisePreviewTexture: 1
+      m_noisePreviewTextureLocked: 0
+      m_ShowNoiseTypeSettings: 0
+      m_scaleNoiseToTerrainSize: 0
+      m_distanceMaskSquareRoundness: 0.25
+      m_collisionMaskExpanded: 1
+      m_collisionMasks: []
+      m_erosionMaskOutput: 0
+      m_erosionSimScale: 9
+      m_erosionHydroTimeDelta: 0.05
+      m_erosionHydroIterations: 15
+      m_erosionThermalTimeDelta: 0.01
+      m_erosionThermalIterations: 80
+      m_erosionThermalReposeAngle: 80
+      m_erosionPrecipRate: 0.5
+      m_erosionEvaporationRate: 0.5
+      m_erosionFlowRate: 0.5
+      m_erosionSedimentCapacity: 0.5
+      m_erosionSedimentDepositRate: 0.8
+      m_erosionSedimentDissolveRate: 0.5
+      m_erosionRiverBankDepositRate: 7
+      m_erosionRiverBankDissolveRate: 5
+      m_erosionRiverBedDepositRate: 5
+      m_erosionRiverBedDissolveRate: 5
+      m_erosionShowAdvancedUI: 0
+      m_erosionShowThermalUI: 0
+      m_erosionShowWaterUI: 0
+      m_erosionShowSedimentUI: 0
+      m_erosionShowRiverBankUI: 0
+      m_smoothVerticality: 0
+      m_smoothBlurRadius: 1
+      m_textureMaskSpawnRuleGUID: 
+      m_concavity: 1
+      m_concavityFeatureSize: 10
+      m_foldedOut: 1
+      m_selectedWorldBiomeMaskGUID: 
+      m_growAndShrinkValue: 0
+      m_globalSpawnerMaskStackRT: {fileID: 0}
+    m_mixMidPoint: 0.5
+    m_mixHeightStrength: 0.5
+  m_useExistingTerrainForWorldMapExport: 0
+  m_stampOperationsFoldedOut: 0
+  m_worldSizeAdvancedUnfolded: 0
+  m_worldTileSize: 0
+  m_worldDesignerBiomePresetSelection: -2147483648
+  m_worldDesignerPreviewMode: 0
+  m_BiomeSpawnersToCreate: []
+  m_lastStampSpawnWorldSize: {x: 0, y: 0, z: 0}
+  m_lastExportedHeightMapResolution: 0
+  m_lastExportedWorldSize: 0
+  m_qualityPresetAdvancedUnfolded: 0
+  m_biomeMaskPanelUnfolded: 0
+  m_spawnStampsPanelUnfolded: 0
+  m_ExportRunning: 0
+  m_dropAreaResource: 0
+  m_highlightLoadingSettings: 0
+  m_highlightLoadingSettingsStartedTimeStamp: 0
+  m_foldoutSpawnerSettings: 0
+  m_worldDesignerUserBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_worldDesignerSampleObjectPos1: {x: 0, y: 0, z: 0}
+  m_worldDesignerSampleObjectPos2: {x: 0, y: 0, z: 0}
+  m_worldDesignerSampleObjectPos3: {x: 0, y: 0, z: 0}
+  m_drawWorldDesignerSampleObjects: 1
+  m_drawWorldDesignerHandles: 0
+  m_drawWorldDesignerRulers: 1
+  m_drawWorldDesignerDensityViz: 0
+  m_autoStampDensityVisualizationTimeStamp: 0
+--- !u!114 &3543086182160190457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086182160190439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0658d731d3f1d5e4496b3a48cbac80e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_loadingBoundsRegular:
+    m_Center:
+      x: 0
+      y: 12.98516845703125
+      z: 0
+    m_Extents:
+      x: 2045.75
+      y: 2045.75
+      z: 2045.75
+  m_loadingBoundsImpostor:
+    m_Center:
+      x: 0
+      y: 12.98516845703125
+      z: 0
+    m_Extents:
+      x: 0
+      y: 0
+      z: 0
+  m_loadingBoundsCollider:
+    m_Center:
+      x: 0
+      y: 0
+      z: 0
+    m_Extents:
+      x: 0
+      y: 0
+      z: 0
+  m_loadMode: 1
+  m_isSelected: 0
+  m_beingDragged: 0
+  m_minRefreshDistance: 100
+  m_maxRefreshDistance: 2000
+  m_minRefreshMS: 100
+  m_maxRefreshMS: 5000
+  m_followTransform: 1
+--- !u!1 &3543086182460442396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3543086182460442397}
+  m_Layer: 0
+  m_Name: Temp Session Tools
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3543086182460442397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086182460442396}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3543086182679877203}
+  m_Father: {fileID: 3543086181193848578}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3543086182593245907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3543086182593245908}
+  - component: {fileID: 3543086182593245910}
+  - component: {fileID: 3543086182593245909}
+  m_Layer: 0
+  m_Name: Synty Studios (Low Poly) Biome
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3543086182593245908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086182593245907}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 6.492584, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3543086182160190456}
+  - {fileID: 3543086181549639654}
+  - {fileID: 3543086182907326746}
+  - {fileID: 3543086181239562878}
+  m_Father: {fileID: 3543086181193848578}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3543086182593245910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086182593245907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd63de8b80658e841978e0280130ee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings: {fileID: 0}
+  m_autoSpawnersToggleAll: 0
+  m_autoSpawners:
+  - isActive: 1
+    status: 3
+    lastSpawnTimeStamp: -3.4028235e+38
+    spawner: {fileID: 3543086182160190458}
+  - isActive: 0
+    status: 3
+    lastSpawnTimeStamp: -3.4028235e+38
+    spawner: {fileID: 3543086181549639655}
+  - isActive: 0
+    status: 3
+    lastSpawnTimeStamp: -3.4028235e+38
+    spawner: {fileID: 3543086182907326747}
+  - isActive: 0
+    status: 3
+    lastSpawnTimeStamp: -3.4028235e+38
+    spawner: {fileID: 3543086181239562864}
+  m_autoSpawnRequested: 0
+  m_drawPreview: 0
+  m_biomePreviewDirty: 1
+  m_autoSpawnerArea: 1
+  m_showSeaLevelPlane: 1
+  m_showSeaLevelinPreview: 1
+  m_showBoundingBox: 1
+  m_oldName: Synty Studios (Low Poly) Biome
+  m_changesMadeSinceLastSave: 1
+  m_biomeWasSpawned: 1
+  m_highlightLoadingSettings: 0
+  m_highlightLoadingSettingsStartedTimeStamp: 0
+  m_loadTerrainMode: 0
+  m_impostorLoadingRange: 0
+--- !u!114 &3543086182593245909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086182593245907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0658d731d3f1d5e4496b3a48cbac80e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_loadingBoundsRegular:
+    m_Center:
+      x: 0
+      y: 0
+      z: 0
+    m_Extents:
+      x: 0
+      y: 0
+      z: 0
+  m_loadingBoundsImpostor:
+    m_Center:
+      x: 0
+      y: 0
+      z: 0
+    m_Extents:
+      x: 0
+      y: 0
+      z: 0
+  m_loadingBoundsCollider:
+    m_Center:
+      x: 0
+      y: 0
+      z: 0
+    m_Extents:
+      x: 0
+      y: 0
+      z: 0
+  m_loadMode: 0
+  m_isSelected: 0
+  m_beingDragged: 0
+  m_minRefreshDistance: 100
+  m_maxRefreshDistance: 2000
+  m_minRefreshMS: 100
+  m_maxRefreshMS: 5000
+  m_followTransform: 1
+--- !u!1 &3543086182611509892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3543086182611509893}
+  - component: {fileID: 3543086182611509894}
+  m_Layer: 0
+  m_Name: World Map Stamper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3543086182611509893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086182611509892}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2304, y: 0, z: 2304}
+  m_LocalScale: {x: 100, y: 4.7, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3543086181860722654}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3543086182611509894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086182611509892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a6de5e15bbf726429ed2f777b34dc8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_stampID: 80efff2b-e901-4bd9-8908-649d927afc12
+  m_stampImage: {fileID: 0}
+  m_stampImageGUID: 
+  m_autoSpawnersToggleAll: 0
+  m_autoMaskExportersToggleAll: 0
+  m_autoSpawners: []
+  m_autoMaskExporter: []
+  m_lastAffectedTerrains: []
+  m_lastActiveTerrainSize: 0
+  m_settings: {fileID: 0}
+  m_invertStamp: 0
+  m_normaliseStamp: 0
+  m_smoothIterations: 0
+  m_stencilHeight: 1
+  m_heightModifier:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_distanceMask:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_distanceMaskInfluence: 0
+  m_MaskTexturesDirty: 1
+  m_areaMaskMode: 0
+  m_imageMask: {fileID: 0}
+  m_imageMaskGUID: 
+  m_areaMaskInfluence: 0
+  m_imageMaskInvert: 0
+  m_imageMaskNormalise: 0
+  m_imageMaskFlip: 0
+  m_imageMaskSmoothIterations: 0
+  m_noiseMaskSeed: 0
+  m_noiseMaskOctaves: 8
+  m_noiseMaskPersistence: 0.25
+  m_noiseMaskFrequency: 1
+  m_noiseMaskLacunarity: 1.5
+  m_noiseZoom: 10
+  m_alwaysShow: 0
+  m_showBoundingBox: 1
+  m_showBase: 1
+  m_showSeaLevelPlane: 0
+  m_showRulers: 0
+  m_syncHeightmaps: 1
+  m_stampDirty: 1
+  m_worldMapStampToken: {fileID: 0}
+  m_recordUndo: 0
+  m_currentStamperUndoOperation: 0
+  m_stamperUndoOperations: []
+  m_linkedBiomeController: {fileID: 0}
+  m_cachedRenderTexture: {fileID: 0}
+  m_cachedMaskTexture: {fileID: 0}
+  m_drawPreview: 1
+  m_showSeaLevelinStampPreview: 1
+  m_maxCurrentTerrainHeight: 20.932049
+  m_minCurrentTerrainHeight: 0
+  m_activacteLocationSliders: 1
+  m_activatePreviewRequested: 0
+  m_activatePreviewTimeStamp: 0
+  m_heightUpdateRequested: 0
+  m_autoSpawnRequested: 0
+  m_autoMaskExportRequested: 0
+  m_autoSpawnStarted: 0
+  m_lastHeightmapUpdateTimeStamp: 0
+  m_openedFromTerrainGenerator: 0
+  m_hasStamped: 0
+  m_showAutoSpawnersOnEnable: 0
+  m_sessionEditMode: 0
+  m_sessionEditOperation:
+    m_description: 
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 6/2/2023 9:40:23 AM
+    scriptableObjectAssetGUID: 
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  m_impostorLoadingRange: 0
+  m_highlightLoadingSettings: 0
+  m_highlightLoadingSettingsStartedTimeStamp: 0
+  m_baseTerrainMinHeight: 0
+  m_baseTerrainMaxHeight: 20.932049
+  m_firstFrameAfterStampSpawning: 0
+  m_worldDesignerStampVisColor0: {r: 1, g: 0, b: 0, a: 0}
+  m_worldDesignerStampVisColor1: {r: 0, g: 1, b: 0, a: 0}
+  m_worldDesignerStampVisColor2: {r: 0, g: 0, b: 1, a: 0}
+  m_worldDesignerStampVisColor3: {r: 0, g: 1, b: 1, a: 0}
+  m_worldDesignerStampVisColor4: {r: 1, g: 0, b: 1, a: 0}
+  m_worldDesignerMinHeight: 0
+  m_worldDesignerMaxHeight: 0
+  m_useCustomPreviewBounds: 0
+  m_worldDesignerPreviewBounds:
+    m_Center: {x: 0, y: 256, z: 0}
+    m_Extent: {x: 256, y: 256, z: 256}
+  m_worldDesignerPreviewMode: 0
+  m_worldDesignerPreviewTiles: 9
+  m_worldDesignerRenderedStamps: 49
+  m_worldMapStamperSettings:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_loadTerrainMode: 0
+--- !u!1 &3543086182679877202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3543086182679877203}
+  - component: {fileID: 3543086182679877204}
+  m_Layer: 0
+  m_Name: Session - Synty Studios (Low Poly) Biome Combined(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3543086182679877203
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086182679877202}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3543086182460442397}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3543086182679877204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086182679877202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df16ee49ef1a2246ba1007a065388a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings: {fileID: 0}
+  worldCreationSettings: {fileID: 0}
+  baseTerrainsettings: {fileID: 0}
+  m_worldMapStamperSettings: []
+  m_loadTerrainMode: 1
+  m_impostorLoadingRange: 0
+  m_connectedCTSProfileGUID: 
+  m_spawnerID: 06e394c5-447b-4ac4-a8e5-df417b42e961
+  m_mode: 0
+  m_seed: 196
+  m_spawnerShape: 0
+  m_spawnRuleSelector: 2
+  m_spawnLocationAlgorithm: 0
+  m_spawnLocationCheckType: 0
+  m_locationIncrement: 1
+  m_maxJitteredLocationOffsetPct: 0.9
+  m_locationChecksPerInt: 1
+  m_maxRandomClusterSize: 50
+  m_spawnFitnessAttenuator:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_areaMaskMode: 0
+  m_enableColliderCacheAtRuntime: 0
+  m_imageMask: {fileID: 0}
+  m_imageMaskInvert: 0
+  m_imageMaskNormalise: 0
+  m_imageMaskFlip: 0
+  m_imageMaskSmoothIterations: 3
+  m_noiseMaskSeed: 0
+  m_noiseMaskOctaves: 8
+  m_noiseMaskPersistence: 0.25
+  m_noiseMaskFrequency: 1
+  m_noiseMaskLacunarity: 1.5
+  m_noiseZoom: 10
+  m_noiseInvert: 0
+  m_spawnInterval: 5
+  m_triggerTags: Player
+  m_triggerRange: 130
+  m_spawnCollisionLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  m_spawnColliderLayer: 6
+  m_showGizmos: 1
+  m_showDebug: 0
+  m_baseTerrainStamped: 0
+  m_updateTimeAllowed: 0.033333335
+  m_spawnProgress: 0
+  m_spawnComplete: 1
+  m_spawnerBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_spawnPreviewDirty: 0
+  m_lastActiveTerrainSize: 1024
+  m_spawnRuleRegularToggleAllState: 1
+  m_spawnRuleBiomeMasksToggleAllState: 1
+  m_spawnRuleStampsToggleAllState: 1
+  m_drawPreview: 0
+  m_previewRuleIds: 
+  m_maxWorldHeight: 104.407845
+  m_minWorldHeight: 0
+  m_showSeaLevelinStampPreview: 1
+  m_terrainGeneratorPanelUnfolded: 1
+  m_worldDesignerPreviewSettingsUnfolded: 0
+  m_rulePanelUnfolded: 1
+  m_createBaseTerrainUnfolded: 0
+  m_sizeAndResolutionUnfolded: 1
+  m_exportTerrainUnfolded: 0
+  m_worldBiomeMasksUnfolded: 0
+  m_createdfromBiomePreset: 0
+  m_createdFromGaiaManager: 0
+  m_showSeaLevelPlane: 0
+  m_showBoundingBox: 1
+  m_seaLevel: 0
+  m_worldDesignerPreviewTileX: -99
+  m_worldDesignerPreviewTileZ: -99
+  m_worldDesignerClearStampsWarningShown: 0
+  m_maskListBeingDrawn: []
+  m_collisionMaskListBeingDrawn: []
+  m_spawnRuleIndexBeingDrawn: 0
+  m_spawnRuleMaskIndexBeingDrawn: 0
+  m_textureResourcePrototypeBeingDrawn:
+    m_name: 
+    m_texture: {fileID: 0}
+    m_textureFileName: 
+    m_normal: {fileID: 0}
+    m_maskmap: {fileID: 0}
+    m_CTSSmoothnessMap: {fileID: 0}
+    m_CTSRoughnessMap: {fileID: 0}
+    m_CTSHeightMap: {fileID: 0}
+    m_CTSAmbientOcclusionMap: {fileID: 0}
+    m_normalFileName: 
+    m_sizeX: 8
+    m_sizeY: 8
+    m_offsetX: 0
+    m_offsetY: 0
+    m_metallic: 0
+    m_smoothness: 0
+    m_spawnCriteria: []
+    m_LayerGUID: 
+    m_normalScale: 1
+    m_diffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
+    m_diffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+    m_maskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
+    m_maskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
+    m_specularColor: {r: 0, g: 0, b: 0, a: 0}
+    m_channelRemapFoldedOut: 0
+  m_treeResourcePrototypeBeingDrawn:
+    m_name: 
+    m_desktopPrefab: {fileID: 0}
+    m_desktopPrefabFileName: 
+    m_mobilePrefabFileName: 
+    m_bendFactor: 0
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+    m_snapToTerrain: 1
+    m_customOffset: 0
+    m_minYOffset: -2
+    m_maxYOffset: 2
+    m_yOffsetBasedOn: 0
+    m_spawnScale: 1
+    m_minWidth: 0.75
+    m_maxWidth: 1.5
+    m_minHeight: 0.75
+    m_maxHeight: 1.5
+    m_widthRandomPercentage: 0.5
+    m_heightRandomPercentage: 0.5
+    m_lastUsedSpawnScale: 1
+    m_lastUsedMinWidth: 0.75
+    m_lastUsedMaxWidth: 1.5
+    m_lastUsedMinHeight: 0.75
+    m_lastUsedMaxHeight: 1.5
+    m_lastUsedWidthRandomPercentage: 0.5
+    m_lastUsedHeightRandomPercentage: 0.5
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+    m_useFlora: 0
+    m_floraLODs: []
+    m_pwDetailerSettingsObject: {fileID: 0}
+    m_detailerSettingsObjectAssetGUID: 
+    m_detailerSettingsObjectInstanceID: 0
+  m_terrainDetailPrototypeBeingDrawn:
+    m_name: 
+    m_renderMode: 2
+    m_useInstancing: 0
+    m_alignToGround: 0
+    m_density: 1
+    m_holeEdgePadding: 0
+    m_noiseSeed: 0
+    m_positionJitter: 0
+    m_targetCoverage: 1
+    m_useDensityScaling: 1
+    m_detailProtoype: {fileID: 0}
+    m_detailPrototypeFileName: 
+    m_detailTexture: {fileID: 0}
+    m_detailTextureFileName: 
+    m_minWidth: 1
+    m_maxWidth: 2
+    m_minHeight: 1
+    m_maxHeight: 2
+    m_noiseSpread: 0.3
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+    m_useFlora: 0
+    m_floraLODs: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_dnaFoldedOut: 0
+  m_gameObjectResourcePrototypeBeingDrawn:
+    m_name: 
+    m_instances: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_canSpawnAsTree: 0
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+  m_spawnExtensionPrototypeBeingDrawn:
+    m_name: 
+    m_instances: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+  m_stampDistributionPrototypeBeingDrawn:
+    m_featureType: 
+    m_stampInfluence: 1
+    m_borderMaskStyle: 1
+    m_borderMaskType: Masks
+    m_operation: 13
+    m_stackedChance: 0
+    m_minWidth: 50
+    m_maxWidth: 200
+    m_tieWidthToStrength: 1
+    m_minHeight: 1
+    m_maxHeight: 5
+    m_minMixStrength: 0.1
+    m_maxMixStrength: 0.25
+    m_minMixMidPoint: 0.25
+    m_maxMixMidPoint: 0.75
+    m_tieHeightToStrength: 1
+    m_minYOffset: -1
+    m_maxYOffset: 1
+    m_invertChance: 0
+    m_inputHeightToStampHeightMapping:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_inputHeightToProbabilityMapping:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_spawnProbability: 0
+  m_worldBiomeMaskPrototypeBeingDrawn:
+    m_name: 
+    m_biomePreset: {fileID: 0}
+  m_probePrototypeBeingDrawn:
+    m_name: 
+    m_probeType: 0
+    m_reflectionProbeData:
+      reflectionProbeMode: 1
+      reflectionProbeRefresh: 0
+      reflectionCubemapCompression: 2
+      reflectionProbeTimeSlicingMode: 1
+      reflectionProbesPerRow: 5
+      reflectionProbeOffset: 1.8
+      reflectionProbeClipPlaneDistance: 1000
+      reflectionProbeBlendDistance: 5
+      reflectionprobeCullingMask:
+        serializedVersion: 2
+        m_Bits: 1
+      reflectionProbeShadowDistance: 100
+      reflectionProbeResolution: 2
+      lightProbesPerRow: 50
+      lightProbeSpawnRadius: 25
+      seaLevel: 50
+      filterMode: 1
+  m_terrainModifierStampBeingDrawn:
+    m_name: 
+    m_y: 50
+    m_height: 10
+    m_absoluteHeightValue: 0
+    m_rotation: 0
+    m_blendStrength: 0.5
+    m_operation: 0
+    m_heightTransformCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_contrastFeatureSize: 10
+    m_contrastStrength: 2
+    m_terraceCount: 100
+    m_terraceJitterCount: 0.5
+    m_terraceBevelAmountInterior: 0
+    m_sharpenRidgesMixStrength: 0.5
+    m_sharpenRidgesIterations: 16
+    m_powerOf: 0
+    m_smoothVerticality: 0
+    m_smoothBlurRadius: 10
+    m_stamperInputImageMask:
+      m_active: 1
+      m_invert: 0
+      m_hasErrors: 0
+      m_influence: 0
+      m_operation: 0
+      m_blendMode: 0
+      m_imageMaskLocation: 0
+      m_strength: 1
+      m_seaLevel: 0
+      m_maxWorldHeight: 0
+      m_minWorldHeight: 0
+      m_xOffSet: 0
+      m_zOffSet: 0
+      m_xOffSetScalar: 0
+      m_zOffSetScalar: 0
+      m_xScale: 1
+      m_zScale: 1
+      m_rotationDegrees: 0
+      m_tiling: 0
+      m_imageMaskSpace: 0
+      m_imageMaskTextureGUID: 
+      m_imageMaskFilterMode: 0
+      m_imageMaskColorSelectionColor: {r: 1, g: 1, b: 1, a: 1}
+      m_imageMaskColorSelectionAccuracy: 0.5
+      m_distanceMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_strengthTransformCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_heightMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_heightMaskType: 1
+      m_heightMaskUnit: 1
+      m_relativeHeightMin: 25
+      m_relativeHeightMax: 75
+      m_absoluteHeightMin: 50
+      m_absoluteHeightMax: 150
+      m_seaLevelRelativeHeightMin: -109876.55
+      m_seaLevelRelativeHeightMax: 109876.55
+      tree1active: 0
+      tree2active: 0
+      m_slopeMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_slopeMin: 0
+      m_slopeMax: 0.1
+      m_distanceMaskAxes: 3
+      m_gaiaNoiseSettings:
+        m_translation: {x: 0, y: 0, z: 0}
+        m_rotation: {x: 0, y: 0, z: 0}
+        m_scale: {x: 10, y: 1, z: 10}
+        m_noiseTypeName: Perlin
+        m_noiseTypeParams: 
+        m_fractalTypeName: Fbm
+        m_fractalTypeParams: 
+        m_warpEnabled: 0
+        m_warpIterations: 0
+        m_warpStrength: 0
+        m_warpOffset: {x: 0, y: 0, z: 0, w: 0}
+      m_noiseSettings: {fileID: 0}
+      m_noiseToolSettings:
+        worldHeightRemap: {x: 0, y: 0}
+        coordSpace: 0
+        noiseAssetGUID: 
+      m_ShowNoiseTransformSettings: 0
+      m_ShowNoisePreviewTexture: 1
+      m_noisePreviewTextureLocked: 0
+      m_ShowNoiseTypeSettings: 0
+      m_scaleNoiseToTerrainSize: 0
+      m_distanceMaskSquareRoundness: 0.25
+      m_collisionMaskExpanded: 1
+      m_collisionMasks: []
+      m_erosionMaskOutput: 0
+      m_erosionSimScale: 9
+      m_erosionHydroTimeDelta: 0.05
+      m_erosionHydroIterations: 15
+      m_erosionThermalTimeDelta: 0.01
+      m_erosionThermalIterations: 80
+      m_erosionThermalReposeAngle: 80
+      m_erosionPrecipRate: 0.5
+      m_erosionEvaporationRate: 0.5
+      m_erosionFlowRate: 0.5
+      m_erosionSedimentCapacity: 0.5
+      m_erosionSedimentDepositRate: 0.8
+      m_erosionSedimentDissolveRate: 0.5
+      m_erosionRiverBankDepositRate: 7
+      m_erosionRiverBankDissolveRate: 5
+      m_erosionRiverBedDepositRate: 5
+      m_erosionRiverBedDissolveRate: 5
+      m_erosionShowAdvancedUI: 0
+      m_erosionShowThermalUI: 0
+      m_erosionShowWaterUI: 0
+      m_erosionShowSedimentUI: 0
+      m_erosionShowRiverBankUI: 0
+      m_smoothVerticality: 0
+      m_smoothBlurRadius: 1
+      m_textureMaskSpawnRuleGUID: 
+      m_concavity: 1
+      m_concavityFeatureSize: 10
+      m_foldedOut: 1
+      m_selectedWorldBiomeMaskGUID: 
+      m_growAndShrinkValue: 0
+      m_globalSpawnerMaskStackRT: {fileID: 0}
+    m_mixMidPoint: 0.5
+    m_mixHeightStrength: 0.5
+  m_useExistingTerrainForWorldMapExport: 0
+  m_stampOperationsFoldedOut: 0
+  m_worldSizeAdvancedUnfolded: 0
+  m_worldTileSize: 0
+  m_worldDesignerBiomePresetSelection: -2147483648
+  m_worldDesignerPreviewMode: 0
+  m_BiomeSpawnersToCreate: []
+  m_lastStampSpawnWorldSize: {x: 0, y: 0, z: 0}
+  m_lastExportedHeightMapResolution: 0
+  m_lastExportedWorldSize: 0
+  m_qualityPresetAdvancedUnfolded: 0
+  m_biomeMaskPanelUnfolded: 0
+  m_spawnStampsPanelUnfolded: 0
+  m_ExportRunning: 0
+  m_dropAreaResource: 0
+  m_highlightLoadingSettings: 0
+  m_highlightLoadingSettingsStartedTimeStamp: 0
+  m_foldoutSpawnerSettings: 0
+  m_worldDesignerUserBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_worldDesignerSampleObjectPos1: {x: 0, y: 0, z: 0}
+  m_worldDesignerSampleObjectPos2: {x: 0, y: 0, z: 0}
+  m_worldDesignerSampleObjectPos3: {x: 0, y: 0, z: 0}
+  m_drawWorldDesignerSampleObjects: 1
+  m_drawWorldDesignerHandles: 0
+  m_drawWorldDesignerRulers: 1
+  m_drawWorldDesignerDensityViz: 0
+  m_autoStampDensityVisualizationTimeStamp: 0
+--- !u!1 &3543086182907326745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3543086182907326746}
+  - component: {fileID: 3543086182907326747}
+  m_Layer: 0
+  m_Name: Synty Tree Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3543086182907326746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086182907326745}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 6.492584, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3543086182593245908}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3543086182907326747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543086182907326745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df16ee49ef1a2246ba1007a065388a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings: {fileID: 0}
+  worldCreationSettings: {fileID: 0}
+  baseTerrainsettings: {fileID: 0}
+  m_worldMapStamperSettings: []
+  m_loadTerrainMode: 1
+  m_impostorLoadingRange: 0
+  m_connectedCTSProfileGUID: 
+  m_spawnerID: 8a95ba01-37e5-4428-acc1-c5b6f691416d
+  m_mode: 0
+  m_seed: 715
+  m_spawnerShape: 0
+  m_spawnRuleSelector: 2
+  m_spawnLocationAlgorithm: 0
+  m_spawnLocationCheckType: 0
+  m_locationIncrement: 1
+  m_maxJitteredLocationOffsetPct: 0.9
+  m_locationChecksPerInt: 1
+  m_maxRandomClusterSize: 50
+  m_spawnFitnessAttenuator:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_areaMaskMode: 0
+  m_enableColliderCacheAtRuntime: 0
+  m_imageMask: {fileID: 0}
+  m_imageMaskInvert: 0
+  m_imageMaskNormalise: 0
+  m_imageMaskFlip: 0
+  m_imageMaskSmoothIterations: 3
+  m_noiseMaskSeed: 0
+  m_noiseMaskOctaves: 8
+  m_noiseMaskPersistence: 0.25
+  m_noiseMaskFrequency: 1
+  m_noiseMaskLacunarity: 1.5
+  m_noiseZoom: 10
+  m_noiseInvert: 0
+  m_spawnInterval: 5
+  m_triggerTags: Player
+  m_triggerRange: 130
+  m_spawnCollisionLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  m_spawnColliderLayer: 6
+  m_showGizmos: 1
+  m_showDebug: 0
+  m_baseTerrainStamped: 0
+  m_updateTimeAllowed: 0.033333335
+  m_spawnProgress: 0
+  m_spawnComplete: 1
+  m_spawnerBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_spawnPreviewDirty: 1
+  m_lastActiveTerrainSize: 512
+  m_spawnRuleRegularToggleAllState: 1
+  m_spawnRuleBiomeMasksToggleAllState: 1
+  m_spawnRuleStampsToggleAllState: 1
+  m_drawPreview: 0
+  m_previewRuleIds: 
+  m_maxWorldHeight: 104.407845
+  m_minWorldHeight: 0
+  m_showSeaLevelinStampPreview: 1
+  m_terrainGeneratorPanelUnfolded: 1
+  m_worldDesignerPreviewSettingsUnfolded: 0
+  m_rulePanelUnfolded: 1
+  m_createBaseTerrainUnfolded: 0
+  m_sizeAndResolutionUnfolded: 1
+  m_exportTerrainUnfolded: 0
+  m_worldBiomeMasksUnfolded: 0
+  m_createdfromBiomePreset: 0
+  m_createdFromGaiaManager: 0
+  m_showSeaLevelPlane: 0
+  m_showBoundingBox: 1
+  m_seaLevel: 0
+  m_worldDesignerPreviewTileX: -99
+  m_worldDesignerPreviewTileZ: -99
+  m_worldDesignerClearStampsWarningShown: 0
+  m_maskListBeingDrawn: []
+  m_collisionMaskListBeingDrawn: []
+  m_spawnRuleIndexBeingDrawn: 0
+  m_spawnRuleMaskIndexBeingDrawn: 0
+  m_textureResourcePrototypeBeingDrawn:
+    m_name: 
+    m_texture: {fileID: 0}
+    m_textureFileName: 
+    m_normal: {fileID: 0}
+    m_maskmap: {fileID: 0}
+    m_CTSSmoothnessMap: {fileID: 0}
+    m_CTSRoughnessMap: {fileID: 0}
+    m_CTSHeightMap: {fileID: 0}
+    m_CTSAmbientOcclusionMap: {fileID: 0}
+    m_normalFileName: 
+    m_sizeX: 8
+    m_sizeY: 8
+    m_offsetX: 0
+    m_offsetY: 0
+    m_metallic: 0
+    m_smoothness: 0
+    m_spawnCriteria: []
+    m_LayerGUID: 
+    m_normalScale: 1
+    m_diffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
+    m_diffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+    m_maskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
+    m_maskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
+    m_specularColor: {r: 0, g: 0, b: 0, a: 0}
+    m_channelRemapFoldedOut: 0
+  m_treeResourcePrototypeBeingDrawn:
+    m_name: 
+    m_desktopPrefab: {fileID: 0}
+    m_desktopPrefabFileName: 
+    m_mobilePrefabFileName: 
+    m_bendFactor: 0
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+    m_snapToTerrain: 1
+    m_customOffset: 0
+    m_minYOffset: -2
+    m_maxYOffset: 2
+    m_yOffsetBasedOn: 0
+    m_spawnScale: 1
+    m_minWidth: 0.75
+    m_maxWidth: 1.5
+    m_minHeight: 0.75
+    m_maxHeight: 1.5
+    m_widthRandomPercentage: 0.5
+    m_heightRandomPercentage: 0.5
+    m_lastUsedSpawnScale: 1
+    m_lastUsedMinWidth: 0.75
+    m_lastUsedMaxWidth: 1.5
+    m_lastUsedMinHeight: 0.75
+    m_lastUsedMaxHeight: 1.5
+    m_lastUsedWidthRandomPercentage: 0.5
+    m_lastUsedHeightRandomPercentage: 0.5
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+    m_useFlora: 0
+    m_floraLODs: []
+    m_pwDetailerSettingsObject: {fileID: 0}
+    m_detailerSettingsObjectAssetGUID: 
+    m_detailerSettingsObjectInstanceID: 0
+  m_terrainDetailPrototypeBeingDrawn:
+    m_name: 
+    m_renderMode: 2
+    m_useInstancing: 0
+    m_alignToGround: 0
+    m_density: 1
+    m_holeEdgePadding: 0
+    m_noiseSeed: 0
+    m_positionJitter: 0
+    m_targetCoverage: 1
+    m_useDensityScaling: 1
+    m_detailProtoype: {fileID: 0}
+    m_detailPrototypeFileName: 
+    m_detailTexture: {fileID: 0}
+    m_detailTextureFileName: 
+    m_minWidth: 1
+    m_maxWidth: 2
+    m_minHeight: 1
+    m_maxHeight: 2
+    m_noiseSpread: 0.3
+    m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+    m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+    m_useFlora: 0
+    m_floraLODs: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_dnaFoldedOut: 0
+  m_gameObjectResourcePrototypeBeingDrawn:
+    m_name: 
+    m_instances: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_spawnCriteria: []
+    m_spawnExtensions: []
+    m_canSpawnAsTree: 0
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+  m_spawnExtensionPrototypeBeingDrawn:
+    m_name: 
+    m_instances: []
+    m_dna:
+      m_boundsRadius: 1
+      m_scaleMultiplier: 1
+      m_extParam: 
+      m_protoIdx: 0
+    m_instancesFoldOut: 0
+    m_dnaFoldedOut: 0
+  m_stampDistributionPrototypeBeingDrawn:
+    m_featureType: 
+    m_stampInfluence: 1
+    m_borderMaskStyle: 1
+    m_borderMaskType: Masks
+    m_operation: 13
+    m_stackedChance: 0
+    m_minWidth: 50
+    m_maxWidth: 200
+    m_tieWidthToStrength: 1
+    m_minHeight: 1
+    m_maxHeight: 5
+    m_minMixStrength: 0.1
+    m_maxMixStrength: 0.25
+    m_minMixMidPoint: 0.25
+    m_maxMixMidPoint: 0.75
+    m_tieHeightToStrength: 1
+    m_minYOffset: -1
+    m_maxYOffset: 1
+    m_invertChance: 0
+    m_inputHeightToStampHeightMapping:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_inputHeightToProbabilityMapping:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_spawnProbability: 0
+  m_worldBiomeMaskPrototypeBeingDrawn:
+    m_name: 
+    m_biomePreset: {fileID: 0}
+  m_probePrototypeBeingDrawn:
+    m_name: 
+    m_probeType: 0
+    m_reflectionProbeData:
+      reflectionProbeMode: 1
+      reflectionProbeRefresh: 0
+      reflectionCubemapCompression: 2
+      reflectionProbeTimeSlicingMode: 1
+      reflectionProbesPerRow: 5
+      reflectionProbeOffset: 1.8
+      reflectionProbeClipPlaneDistance: 1000
+      reflectionProbeBlendDistance: 5
+      reflectionprobeCullingMask:
+        serializedVersion: 2
+        m_Bits: 1
+      reflectionProbeShadowDistance: 100
+      reflectionProbeResolution: 2
+      lightProbesPerRow: 50
+      lightProbeSpawnRadius: 25
+      seaLevel: 50
+      filterMode: 1
+  m_terrainModifierStampBeingDrawn:
+    m_name: 
+    m_y: 50
+    m_height: 10
+    m_absoluteHeightValue: 0
+    m_rotation: 0
+    m_blendStrength: 0.5
+    m_operation: 0
+    m_heightTransformCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_contrastFeatureSize: 10
+    m_contrastStrength: 2
+    m_terraceCount: 100
+    m_terraceJitterCount: 0.5
+    m_terraceBevelAmountInterior: 0
+    m_sharpenRidgesMixStrength: 0.5
+    m_sharpenRidgesIterations: 16
+    m_powerOf: 0
+    m_smoothVerticality: 0
+    m_smoothBlurRadius: 10
+    m_stamperInputImageMask:
+      m_active: 1
+      m_invert: 0
+      m_hasErrors: 0
+      m_influence: 0
+      m_operation: 0
+      m_blendMode: 0
+      m_imageMaskLocation: 0
+      m_strength: 1
+      m_seaLevel: 0
+      m_maxWorldHeight: 0
+      m_minWorldHeight: 0
+      m_xOffSet: 0
+      m_zOffSet: 0
+      m_xOffSetScalar: 0
+      m_zOffSetScalar: 0
+      m_xScale: 1
+      m_zScale: 1
+      m_rotationDegrees: 0
+      m_tiling: 0
+      m_imageMaskSpace: 0
+      m_imageMaskTextureGUID: 
+      m_imageMaskFilterMode: 0
+      m_imageMaskColorSelectionColor: {r: 1, g: 1, b: 1, a: 1}
+      m_imageMaskColorSelectionAccuracy: 0.5
+      m_distanceMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_strengthTransformCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_heightMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_heightMaskType: 1
+      m_heightMaskUnit: 1
+      m_relativeHeightMin: 25
+      m_relativeHeightMax: 75
+      m_absoluteHeightMin: 50
+      m_absoluteHeightMax: 150
+      m_seaLevelRelativeHeightMin: -109876.55
+      m_seaLevelRelativeHeightMax: 109876.55
+      tree1active: 0
+      tree2active: 0
+      m_slopeMaskCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_slopeMin: 0
+      m_slopeMax: 0.1
+      m_distanceMaskAxes: 3
+      m_gaiaNoiseSettings:
+        m_translation: {x: 0, y: 0, z: 0}
+        m_rotation: {x: 0, y: 0, z: 0}
+        m_scale: {x: 10, y: 1, z: 10}
+        m_noiseTypeName: Perlin
+        m_noiseTypeParams: 
+        m_fractalTypeName: Fbm
+        m_fractalTypeParams: 
+        m_warpEnabled: 0
+        m_warpIterations: 0
+        m_warpStrength: 0
+        m_warpOffset: {x: 0, y: 0, z: 0, w: 0}
+      m_noiseSettings: {fileID: 0}
+      m_noiseToolSettings:
+        worldHeightRemap: {x: 0, y: 0}
+        coordSpace: 0
+        noiseAssetGUID: 
+      m_ShowNoiseTransformSettings: 0
+      m_ShowNoisePreviewTexture: 1
+      m_noisePreviewTextureLocked: 0
+      m_ShowNoiseTypeSettings: 0
+      m_scaleNoiseToTerrainSize: 0
+      m_distanceMaskSquareRoundness: 0.25
+      m_collisionMaskExpanded: 1
+      m_collisionMasks: []
+      m_erosionMaskOutput: 0
+      m_erosionSimScale: 9
+      m_erosionHydroTimeDelta: 0.05
+      m_erosionHydroIterations: 15
+      m_erosionThermalTimeDelta: 0.01
+      m_erosionThermalIterations: 80
+      m_erosionThermalReposeAngle: 80
+      m_erosionPrecipRate: 0.5
+      m_erosionEvaporationRate: 0.5
+      m_erosionFlowRate: 0.5
+      m_erosionSedimentCapacity: 0.5
+      m_erosionSedimentDepositRate: 0.8
+      m_erosionSedimentDissolveRate: 0.5
+      m_erosionRiverBankDepositRate: 7
+      m_erosionRiverBankDissolveRate: 5
+      m_erosionRiverBedDepositRate: 5
+      m_erosionRiverBedDissolveRate: 5
+      m_erosionShowAdvancedUI: 0
+      m_erosionShowThermalUI: 0
+      m_erosionShowWaterUI: 0
+      m_erosionShowSedimentUI: 0
+      m_erosionShowRiverBankUI: 0
+      m_smoothVerticality: 0
+      m_smoothBlurRadius: 1
+      m_textureMaskSpawnRuleGUID: 
+      m_concavity: 1
+      m_concavityFeatureSize: 10
+      m_foldedOut: 1
+      m_selectedWorldBiomeMaskGUID: 
+      m_growAndShrinkValue: 0
+      m_globalSpawnerMaskStackRT: {fileID: 0}
+    m_mixMidPoint: 0.5
+    m_mixHeightStrength: 0.5
+  m_useExistingTerrainForWorldMapExport: 0
+  m_stampOperationsFoldedOut: 0
+  m_worldSizeAdvancedUnfolded: 0
+  m_worldTileSize: 0
+  m_worldDesignerBiomePresetSelection: -2147483648
+  m_worldDesignerPreviewMode: 0
+  m_BiomeSpawnersToCreate: []
+  m_lastStampSpawnWorldSize: {x: 0, y: 0, z: 0}
+  m_lastExportedHeightMapResolution: 0
+  m_lastExportedWorldSize: 0
+  m_qualityPresetAdvancedUnfolded: 0
+  m_biomeMaskPanelUnfolded: 0
+  m_spawnStampsPanelUnfolded: 0
+  m_ExportRunning: 0
+  m_dropAreaResource: 0
+  m_highlightLoadingSettings: 0
+  m_highlightLoadingSettingsStartedTimeStamp: 0
+  m_foldoutSpawnerSettings: 0
+  m_worldDesignerUserBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_worldDesignerSampleObjectPos1: {x: 0, y: 0, z: 0}
+  m_worldDesignerSampleObjectPos2: {x: 0, y: 0, z: 0}
+  m_worldDesignerSampleObjectPos3: {x: 0, y: 0, z: 0}
+  m_drawWorldDesignerSampleObjects: 1
+  m_drawWorldDesignerHandles: 0
+  m_drawWorldDesignerRulers: 1
+  m_drawWorldDesignerDensityViz: 0
+  m_autoStampDensityVisualizationTimeStamp: 0

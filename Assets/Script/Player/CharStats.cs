@@ -16,15 +16,9 @@ namespace MagesnShadows
 
         //Stats
         [SyncVar] [SerializeField] public ulong playerID;
-        [SyncVar][SerializeField] int MaxHP;
-        [SyncVar] [SerializeField] int CurrentHP;
-        [SyncVar] [SerializeField] int MaxMana;
-        [SyncVar] [SerializeField] int CurrentMana;
-        [SerializeField] int Str;
-        [SerializeField] int Dex;
-        [SerializeField] int Int;
-        [SerializeField] int Wis;
-        [SerializeField] int Luck;
+
+        [SyncVar] [SerializeField] private CharStatsInfo charStats;
+        [SyncVar] [SerializeField] public CharLvlInfo lvlInfo;
 
         [SerializeField] List<EffectBase> effects;
         
@@ -32,16 +26,17 @@ namespace MagesnShadows
         private void Awake()
         {
             effects = new List<EffectBase>();
-            CurrentHP = MaxHP;
-            CurrentMana = MaxMana;
+            charStats.CurrentHP = charStats.MaxHP;
+
+            charStats.CurrentMana = charStats.MaxMana;
         }
-        public int HP => CurrentHP;
+        public int HP => charStats.CurrentHP;
 
         public void FixedUpdate()
         {
             if(!base.IsOwner)
             { return; }
-            if(CurrentHP <=0)
+            if(charStats.CurrentHP <=0)
             {
                 this.gameObject.GetComponent<PlayerMovement>().AliveToggle();
             }    
@@ -78,5 +73,17 @@ namespace MagesnShadows
     {
         public byte Level;
         public uint Xp;
+    }
+    public struct CharStatsInfo
+    {
+        public int MaxHP;
+        public int CurrentHP;
+        public int MaxMana;
+        public int CurrentMana;
+        public int Str;
+        public int Dex;
+        public int Int;
+        public int Wis;
+        public int Luck;
     }
 }

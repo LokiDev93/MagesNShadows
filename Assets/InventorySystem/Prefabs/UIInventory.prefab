@@ -2517,39 +2517,40 @@ MonoBehaviour:
   _draggedIconPrefab: {fileID: 1584426628587933891, guid: 3b0275db7105a474da6c0d19949d3f64, type: 3}
   _stackSplitterPrefab: {fileID: 3122733119602906247, guid: 04aec188031e9ff449942734c1f7b875, type: 3}
   _slotPrefab: {fileID: 6982791247795684829, guid: 29ea706f1473ea64284903b3ca8a88f1, type: 3}
-  OnOpen:
-    m_PersistentCalls:
-      m_Calls: []
-  OnSwap:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTrash:
-    m_PersistentCalls:
-      m_Calls: []
-  OnResize:
-    m_PersistentCalls:
-      m_Calls: []
-  OnSplitStack:
-    m_PersistentCalls:
-      m_Calls: []
-  OnSort:
-    m_PersistentCalls:
-      m_Calls: []
-  OnWithdrawAll:
-    m_PersistentCalls:
-      m_Calls: []
-  OnDepositAll:
-    m_PersistentCalls:
-      m_Calls: []
-  OnWithdrawExisting:
-    m_PersistentCalls:
-      m_Calls: []
-  OnDepositExisting:
-    m_PersistentCalls:
-      m_Calls: []
-  OnCombineStacks:
-    m_PersistentCalls:
-      m_Calls: []
+  Events:
+    OnOpen:
+      m_PersistentCalls:
+        m_Calls: []
+    OnSwap:
+      m_PersistentCalls:
+        m_Calls: []
+    OnTrash:
+      m_PersistentCalls:
+        m_Calls: []
+    OnResize:
+      m_PersistentCalls:
+        m_Calls: []
+    OnSplitStack:
+      m_PersistentCalls:
+        m_Calls: []
+    OnSort:
+      m_PersistentCalls:
+        m_Calls: []
+    OnWithdrawAll:
+      m_PersistentCalls:
+        m_Calls: []
+    OnDepositAll:
+      m_PersistentCalls:
+        m_Calls: []
+    OnWithdrawExisting:
+      m_PersistentCalls:
+        m_Calls: []
+    OnDepositExisting:
+      m_PersistentCalls:
+        m_Calls: []
+    OnCombineStacks:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!114 &7545310809683209138
 MonoBehaviour:
   m_ObjectHideFlags: 0
